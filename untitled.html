@@ -121,8 +121,10 @@
 			<div class="row animate-box">
 				<div class="featured-wrap">
 					<div class="col-md-8 col-md-offset-2">
-						<div class="featured-entry">
-							<canvas id="myCanvas" width="840" height="560" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas>
+						<div class="featured-entry" align="center">
+							<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qe_XDjyVfT0X5E3-bUFa5-8Q6Vhndes8" width="1000" height="700"></iframe>
+							<!-- <img hidden id="scream" class="img-responsive" src="images/MapOfVideos.jpg" style="display: none;" alt=""> -->
+							<!-- <canvas id="myCanvas" width="1110" height="620" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas> -->
 							<!-- <img class="img-responsive" src="images/MapOfVideos.jpg" alt="" usemap="#videomap"> -->
 							<!-- <map name="videomap"> -->
 							  <!-- image is 1000 wide by 700 tall -->
@@ -138,24 +140,41 @@
 		</div>
 
 		<script>
-			var canvas = document.getElementById("myCanvas");
-			var ctx = canvas.getContext("2d");
-			ctx.fillStyle = "#4D4F52";
+			// window.onload = function() {
+			//   var c=document.getElementById("myCanvas");
+			//   var ctx=c.getContext("2d");
+			//   var img=document.getElementById("scream");  
+			//   ctx.drawImage(img,0,0, 1110, 620);  
+			//   var canvas = document.getElementById('myCanvas');
+			//   var context = canvas.getContext('2d');
+
+			//   context.beginPath();
+			//   // 160,373,170,383
+			//   context.rect(300, 371, 9, 9);
+			//   context.fillStyle = 'blue';
+			//   context.fill();
+			//   context.lineWidth = 1;
+			//   context.strokeStyle = 'black';
+			//   context.stroke();
+			// }
+			// var canvas = document.getElementById("myCanvas");
+			// var ctx = canvas.getContext("2d");
+			// ctx.fillStyle = "#4D4F52";
 			
-			// 140,35,980,590
-			for(var i = 0; i < 84; i++){
-				for(var j = 0; j < 63; j++){
-					if((i*9)+i == 140 && (j*9)+j == 0){
-						ctx.fillStyle = "#2cf005";
-					}
-					else{
-						ctx.fillStyle = "#4D4F52";
-					}
-					ctx.fillRect((i*9)+i, (j*9)+j, 9, 9);
-					console.log("i: " + (i*9)+i);
-					console.log("j: " + (j*9)+j);
-				}
-			}
+			// // 140,35,980,590
+			// for(var i = 0; i < 84; i++){
+			// 	for(var j = 0; j < 63; j++){
+			// 		if((i*9)+i == 140 && (j*9)+j == 0){
+			// 			ctx.fillStyle = "#2cf005";
+			// 		}
+			// 		else{
+			// 			ctx.fillStyle = "#4D4F52";
+			// 		}
+			// 		ctx.fillRect((i*9)+i, (j*9)+j, 9, 9);
+			// 		console.log("i: " + (i*9)+i);
+			// 		console.log("j: " + (j*9)+j);
+			// 	}
+			// }
 		</script> 
 
 		<div class="colorlib-intro">
