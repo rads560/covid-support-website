@@ -1,0 +1,116 @@
+
+/***************************
+global
+****************************/
+
+body {
+	color: #c5c5c5;
+	background-color: #20212a;
+	font-family: 'Source Code Pro';
+}
+
+.bg--dark {
+	background: #20212a;
+}
+
+
+/***************************
+colors
+****************************/
+#game--color {
+	color: #c24051;
+}
+
+#map--color {
+	color: #39c46f;
+}
+
+.btn.btn--primary {
+	border-color: #e3c742;
+	background: #3d4051;
+}
+
+
+
+#game--color.btn.btn--primary:hover {
+  border-color: #c24051;
+  background: #c24051;
+}
+
+#map--color.btn.btn--primary:hover {
+  border-color: #39c46f;
+  background: #39c46f;
+}
+
+.btn--primary .btn__text,
+.btn--primary:visited .btn__text {
+  color: #fff;
+}
+
+
+
+.nav-bar.bg--dark .menu > li > a:hover {
+  color: #fff;
+  transform: translate3d(5px, 0, 0);
+  -webkit-transform: translate3d(5px, 0, 0);
+}
+
+
+
+
+
+/** buttons for about page tabs**/
+
+.btn .btn__text,
+.btn i {
+  color: #fff;
+  border-color: #e3c742;
+  font-weight: 400;
+  font-size: 0.625em;
+}
+
+.tabs-1 .tabs li.active .btn {
+  border-color: #e3c742;
+}
+
+/***************************
+typography
+****************************/
+a {
+	color: #fff;
+}
+
+.lead {
+	font-family: 'Open Sans';
+}
+
+h2 {
+	
+}
+h3 {
+	font-family: 'Montserrat';
+	font-weight: normal;
+
+}
+
+.menu > li {
+  position: relative;
+  float: left;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.masonry .masonry__filters li {
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  text-transform: lowercase;
+  color: #e3c742;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
