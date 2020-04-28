@@ -83,10 +83,31 @@
 	                    </div>
 	                </div>
 	            </div>
-	            <!-- <div class="screen">
-					Video goes here!
-				</div> -->
+	            <div class="screen">
+					<!-- Video goes here! -->
+					<p id="test" class="lead"></p>
+				</div>
 	        </section>
+	        <script type="text/javascript">
+	        	function manning() { 
+		        	var el = document.getElementById('test');
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/8jhDR6ll_l4?showinfo=0&amp;rel=0&amp;modestbranding=1?autoplay=1\"></iframe>";
+		        	var elmnt = document.getElementById('test');
+					elmnt.scrollIntoView();
+		        }
+		        function andrew() { 
+		        	var el = document.getElementById('test');
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed//xBBCRMmOB4E?showinfo=0&amp;rel=0&amp;modestbranding=1?autoplay=1\"></iframe>";
+		        	var elmnt = document.getElementById('test');
+					elmnt.scrollIntoView();
+		        }
+		        function jiyoung() { 
+		        	var el = document.getElementById('test');
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/3QejxaNH8T4?showinfo=0&amp;rel=0&amp;modestbranding=1?autoplay=1\"></iframe>";
+		        	var elmnt = document.getElementById('test');
+					elmnt.scrollIntoView();
+		        }
+		    </script>
 	        <section class="masonry-contained">
 	            <div class="container">
 	                <div class="row">
@@ -95,47 +116,56 @@
 	                        <div class="masonry__container masonry--animate masonry--active">
 	                            <div class="col-sm-2 col-xs-12 masonry__item" data-masonry-filter="documentary">
 	                                <div class="portfolio-item portfolio-item-2 video-cover" data-scrim-bottom="9">
-	                                    <div class="background-image-holder">
-	                                        <img alt="image" src="images/small4.jpg">
-	                                    </div>
-	                                    <div class="portfolio-item__title">
-	                                        <h5>Manning</h5>
-	                                        <span>
-	                                            <em>China</em>
-	                                        </span>
-	                                    </div>
-	                                    <div class="video-play-icon video-play-icon--sm"></div>
-	                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/8jhDR6ll_l4?showinfo=0&amp;rel=0&amp;modestbranding=1"></iframe>
+	                                	<div class="img__wrap">
+		                                    <div class="background-image-holder">
+		                                        <img alt="image" src="images/small4.jpg">
+		                                    </div>
+		                                    <div class="portfolio-item__title">
+		                                        <h5>Manning</h5>
+		                                        <span>
+		                                            <em>China</em>
+		                                        </span>
+		                                    </div>
+		                                    <div class="video-play-icon video-play-icon--sm" onclick="manning()"></div>
+		                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/8jhDR6ll_l4?showinfo=0&amp;rel=0&amp;modestbranding=1"></iframe>
+		                                    <p class="img__description" style="text-align: center;">Need a description.</p>
+		                                </div>
 	                                </div>
 	                            </div>
 	                            <div class="col-sm-2 col-xs-12 masonry__item" data-masonry-filter="documentary">
 	                                <div class="portfolio-item portfolio-item-2 video-cover" data-scrim-bottom="9">
-	                                    <div class="background-image-holder">
-	                                        <img alt="image" src="images/small4.jpg">
-	                                    </div>
-	                                    <div class="portfolio-item__title">
-	                                        <h5>Andrew</h5>
-	                                        <span>
-	                                            <em>Indonesia</em>
-	                                        </span>
-	                                    </div>
-	                                    <div class="video-play-icon video-play-icon--sm"></div>
-	                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/xBBCRMmOB4E"></iframe>
+	                                	<div class="img__wrap">
+		                                    <div class="background-image-holder">
+		                                        <img alt="image" src="images/small4.jpg">
+		                                    </div>
+		                                    <div class="portfolio-item__title">
+		                                        <h5>Andrew</h5>
+		                                        <span>
+		                                            <em>Indonesia</em>
+		                                        </span>
+		                                    </div>
+		                                    <div class="video-play-icon video-play-icon--sm" onclick="andrew()"></div>
+		                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/xBBCRMmOB4E"></iframe>
+		                                    <p class="img__description" style="text-align: center;">Need a description.</p>
+		                                </div>
 	                                </div>
 	                            </div>
 	                            <div class="col-sm-2 col-xs-12 masonry__item" data-masonry-filter="documentary">
 	                                <div class="portfolio-item portfolio-item-2 video-cover" data-scrim-bottom="9">
-	                                    <div class="background-image-holder">
-	                                        <img alt="image" src="images/small4.jpg">
-	                                    </div>
-	                                    <div class="portfolio-item__title">
-	                                        <h5>Jiyoung</h5>
-	                                        <span>
-	                                            <em>Seoul, South Korea</em>
-	                                        </span>
-	                                    </div>
-	                                    <div class="video-play-icon video-play-icon--sm"></div>
-	                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/3QejxaNH8T4"></iframe>
+	                                	<div class="img__wrap">
+		                                    <div class="background-image-holder">
+		                                        <img alt="image" src="images/small4.jpg">
+		                                    </div>
+		                                    <div class="portfolio-item__title">
+		                                        <h5>Jiyoung</h5>
+		                                        <span>
+		                                            <em>Seoul, South Korea</em>
+		                                        </span>
+		                                    </div>
+		                                    <div class="video-play-icon video-play-icon--sm" onclick="jiyoung()"></div>
+		                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/3QejxaNH8T4"></iframe>
+		                                    <p class="img__description" style="text-align: center;">Need a description.</p>
+		                                </div>
 	                                </div>
 	                            </div>
 	                        </div>
