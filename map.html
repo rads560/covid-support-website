@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Connect</title>
+        <title>Map</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
@@ -11,10 +11,11 @@
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Press+Start+2P&family=Source+Code+Pro:wght@200;400&display=swap" rel="stylesheet">
+
     </head>
-    <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
+    <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">	
 		<div class="nav-container">
 			<nav>
 		        <div class="nav-bar bg--dark" data-fixed-at="700">
@@ -54,52 +55,72 @@
 		        </div>
 		    </nav>
 		</div>
+		
 		<div class="main-container">
 			<section class="bg--dark section--even">
-                <div class="container">
+				<div class="container">
                     <div class="row">
-                    	<div class="col-sm-6">
-                    		<h6>Join the fun</h6>
-                    	</div>
-                        <div class="col-sm-12" style="text-align: center;">
-                            <h3>your story is important. we are listening.</h3>
+                        <div class="col-sm-12">
+                            <h6>Map</h6>
+                            <p class="lead">
+                                This map contains video testimony of life in quarantine. Click on the different regions in the map to explore.
+                            </p>
+                            <br>
                         </div>
-                    </div>		                    
-                </div>	                
-			</section>
-			<section>
+                    </div>   
+                </div>
+                <br>
 	            <div class="container">
-	                <div class="row">
-	                    <div class="col-sm-12">
-	                    	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-spre8XplguREBxc8VALDVN0w6sI9WZ_fEInMkNA2KIQc6Q/viewform?embedded=true" width="640" height="975" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-	                        <!-- <form class="form--square form-email" data-success="Thanks for your enquiry, we'll be in touch soon" data-error="Please fill all required fields">
-	                            <h4 class="text-center">say hi</h4>
-	                            <div class="input-with-icon col-sm-12">
-	                                <i class="icon-Pen-2"></i>
-	                                <input class="validate-required" type="text" name="name" placeholder="name">
-	                            </div>
-	                            <div class="input-with-icon col-sm-6">
-	                                <i class="icon-Email"></i>
-	                                <input class="validate-required validate-email" type="email" name="email" placeholder="email">
-	                            </div>
-	                            <div class="input-with-icon col-sm-6">
-	                                <i class="icon-Video-5"></i>
-	                                <input type="url" name="link" placeholder="video link ">
-	                            </div>
-	                            <div class="col-sm-12">
-	                                <textarea class="validate-required" name="message" placeholder="what should we know about you?" rows="8"></textarea>
-	                            </div>
-	                            <div class="col-sm-12">
-	                                <button type="submit" class="btn btn--primary vpe">
-	                                    Submit Form
-	                                </button>
-	                            </div>
-	                        </form> -->
+	                <div class="row" style="text-align: center">
+	                    <!-- <div class="col-sm"> -->
+	                        <!-- <h6>map</h6> -->
+	                        <!-- <p class="title" style="text-align: center;">
+	                            choose a region to view.
+	                        </p> -->
+	                    <!-- </div>	 -->
+	                    <!-- <div class="row">
+						  <div class="col-sm-4"><a href="na.html" class="btn btn-primary btn-custom">North America</a></div>
+						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Europe</a></div>
+						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Asia</a></div>
+						</div>
+						<br>
+						<div class="row">
+						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">South America</a></div>
+						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Africa</a></div>
+						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Australia</a></div>
+						</div> -->
+	                    <div class="col-lg" style="text-align: center">
+	                    	<a href="na.html" class="btn btn-primary btn-custom">North America</a>
+							<a href="europe.html" class="btn btn-primary btn-custom">Europe</a>
+							<a href="asia.html" class="btn btn-primary btn-custom">Asia</a>
 	                    </div>
+	                    <br>
+	                    <div class="col-lg" style="text-align: center">
+							<a href="sa.html" class="btn btn-primary btn-custom">South America</a>
+							<a href="africa.html" class="btn btn-primary btn-custom">Africa</a>
+							<a href="australia.html" class="btn btn-primary btn-custom">Australia</a>
+	                    </div>
+	                    <br>
+	                    <img class="img-responsive" src="images/regionmap.png" alt="" usemap="#videomap">
+	                    <map name="videomap">
+						  <!-- image is 1170 wide by 610 tall -->
+						  <area shape="rect" coords="120,10,510,400" alt="north america" href="na.html">
+						  <area shape="rect" coords="330,400,480,610" alt="south america" href="sa.html">
+						  <area shape="rect" coords="510,150,700,350" alt="europe" href="europe.html">
+						  <area shape="rect" coords="510,300,700,530" alt="africa" href="africa.html">
+						  <area shape="rect" coords="670,60,1050,450" alt="asia" href="asia.html">
+						  <area shape="rect" coords="800,400,1000,610" alt="australia" href="australia.html">
+						</map>
 	                </div>
-	            </div>      
+	                <div class="col-sm">
+                        <!-- <h6>map</h6> -->
+                        <p class="lead" style="text-align: center;">
+                            To share your experience, <a href="form.html">click here.</a>
+                        </p>
+                    </div>	
+	            </div>               
 			</section>
-			<footer class="footer-3 bg--dark text-center-xs">
+		    <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
 			        <ul class="footer__navigation">
 			            <li>
@@ -121,8 +142,9 @@
 			        <span class="type--fine-print">© Copyright <span class="update-year">2020</span>
 		   		</div>
 			</footer>
-		</div>	
+		</div>
 		<script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/isotope.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>

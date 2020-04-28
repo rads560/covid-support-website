@@ -131,7 +131,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-  color: #fff;
+  color: #483048;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-top: 0;
@@ -169,6 +169,10 @@ h6,
 }
 .lead {
   font-size: 1.4375em;
+  line-height: 1.69565217em;
+}
+.title {
+  font-size: 3em;
   line-height: 1.69565217em;
 }
 @media all and (max-width: 767px) {
@@ -453,7 +457,7 @@ img {
   margin-bottom: 1.625em;
 }
 /*p+img, img:last-child{
-	margin-bottom: 0;
+  margin-bottom: 0;
 }*/
 .img--fullwidth {
   width: 100%;
@@ -8140,4 +8144,47 @@ section[class*='elements-'] hr + .row {
   .elements-modals .modal-instance:not(:last-child) {
     margin-bottom: 0.8125em;
   }
+}
+
+.header {
+  height: 400px;
+  width: auto;
+  position: relative; 
+  background-image: url(images/8bitmap.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header img {
+  height: 400px;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.region {
+  font-size: 4em;
+  color: #f4f5f6;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.region-title {
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.screen {
+  background-color: white;
+  height: 300px;
+  width: 600px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  text-align: center;
 }
