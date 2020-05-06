@@ -83,11 +83,20 @@
 	                    </div>
 	                </div>
 	            </div>
-	            <div class="screen">
+				<div class="container">
+	            	<div class="row">
+	            		<div class="col-sm-10 col-sm-offset-1">
+	            		<div class="screen">
 					<!-- Video goes here! -->
 					<p id="test" class="lead"></p>
-				</div>
+					</div>
+	            		</div>
+	            	</div>
+	            </div>
+
 	        </section>
+
+
 	        <script type="text/javascript">
 	        	function manning() { 
 		        	var el = document.getElementById('test');
@@ -108,80 +117,103 @@
 					elmnt.scrollIntoView();
 		        }
 		    </script>
-	        <section class="masonry-contained">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="masonry">
-	                        <!-- <div class="masonry__filters" data-filter-all-text="Show All"></div> -->
-	                        <div class="masonry__container masonry--animate masonry--active">
-	                            <div class="col-sm-2 col-xs-12 masonry__item" data-masonry-filter="documentary">
-	                                <div class="portfolio-item portfolio-item-2 video-cover" data-scrim-bottom="9">
-	                                	<div class="img__wrap">
-		                                    <!-- <div class="background-image-holder">
-		                                        <img alt="image" src="images/small4.jpg.png">
-		                                    </div> --> 
-		                                    <div class="portfolio-item__title">
-		                                       <!-- <h5>Manning</h5>
-		                                        <span>
-		                                            <em>China</em>
-		                                        </span> -->
-		                                    </div>
-		                                    
-		                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/8jhDR6ll_l4?showinfo=0&amp;rel=0&amp;modestbranding=1"></iframe>
-		                                    <div class="img__description_asia" style="text-align: center;">
-		                                    	<p>Manning currently attends college in Shanghai and is quarantined in China with her family. </p>
-		                                        <div class="video-play-icon video-play-icon--sm" onclick="manning()"></div>
-		                                    </div> 
-		                                </div>
-	                                </div>
-	                            </div>
-	                            <div class="col-sm-2 col-xs-12 masonry__item" data-masonry-filter="documentary">
-	                                <div class="portfolio-item portfolio-item-2 video-cover" data-scrim-bottom="9">
-	                                	<div class="img__wrap">
-		                                    <!-- <div class="background-image-holder">
-		                                        <img alt="image" src="images/small4.jpg">
-		                                    </div> --> 
-		                                    <div class="portfolio-item__title">
-		                                        <!-- <h5>Andrew</h5>
-		                                        <span>
-		                                            <em>Indonesia</em>
-		                                        </span> -->
-		                                    </div>
-		                                    
-		                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/xBBCRMmOB4E"></iframe>
-		                                    <div class="img__description_asia" style="text-align: center;">
-		                                    	<p>Andrew is a current college student, quarantined in Indonesia.</p>
-		                                        <div class="video-play-icon video-play-icon--sm" onclick="andrew()"></div>
-		                                    </div> 
-		                                </div>
-	                                </div>
-	                            </div>
-	                            <div class="col-sm-2 col-xs-12 masonry__item" data-masonry-filter="documentary">
-	                                <div class="portfolio-item portfolio-item-2 video-cover" data-scrim-bottom="9">
-	                                	<div class="img__wrap">
-		                                    <!-- <div class="background-image-holder">
-		                                        <img alt="image" src="images/small4.jpg">
-		                                    </div> -->
-		                                    <div class="portfolio-item__title">
-		                                        <!-- <h5>Jiyoung</h5>
-		                                        <span>
-		                                            <em>Seoul, South Korea</em>
-		                                        </span> -->
-		                                    </div>
-		                                    
-		                                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/3QejxaNH8T4"></iframe>
-		                                    <div class="img__description_asia" style="text-align: center;">
-		                                    	<p>Jiyoung currently attends college Seoul, South Korea and is quarantined there. </p>
-		                                        <div class="video-play-icon video-play-icon--sm" onclick="jiyoung()"></div>
-		                                    </div>    
-		                                </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>     
-	        </section>
+
+	        <section>
+	        	<div class="container">
+	        	<div class="row">
+	        			<div class="col-md-3 col-sm-6">
+	        					<div class="card card-1">
+	        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
+                                    <div class="hover-element__initial">
+                                        <img alt="Pic" src="images/vidThumbnail.png" />
+                                        <div class="card__body asia">
+                                        	<div class="card__title">
+	        									<h5>Manning</h5>
+	        									<span>
+		                           				<em>China</em>
+		                        				</span>
+	        								</div>
+	        								
+                                        </div>
+                                    </div>
+                                    <div class="hover-element__reveal" data-overlay="9">
+                                        <div class="boxed">
+                                            <span class="img__description">
+                                                <em>Manning needs a description</em>
+                                            </span>
+                                            <br>
+                                            <div class="video-play-icon video-play-icon--sm playPreview" onclick="manning()"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end hover element-->
+	        					</div>
+	        			</div>
+						<!--end manning-->
+	        			<div class="col-md-3 col-sm-6">
+	        					<div class="card card-1">
+	        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
+                                    <div class="hover-element__initial">
+                                        <img alt="Pic" src="images/vidThumbnail.png" />
+                                        <div class="card__body asia">
+                                        	<div class="card__title">
+	        									<h5>Andrew</h5>
+	        									<span>
+		                           				<em>Indonesia</em>
+		                        			</span>
+	        								</div>
+	        								
+                                        </div>
+                                    </div>
+                                    <div class="hover-element__reveal" data-overlay="9">
+                                        <div class="boxed">
+                                            <span class="img__description">
+                                                <em>Andrew needs a description</em>
+                                            </span>
+                                            <br>
+                                            <div class="video-play-icon video-play-icon--sm playPreview" onclick="andrew()"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end hover element-->
+	        					</div>
+	        			</div>
+	        			<!--end andrew-->
+	        			<div class="col-md-3 col-sm-6">
+	        					<div class="card card-1">
+	        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
+                                    <div class="hover-element__initial">
+                                        <img alt="Pic" src="images/vidThumbnail.png" />
+                                        <div class="card__body asia">
+                                        	<div class="card__title">
+	        									<h5>Jiyoung</h5>
+	        									<span>
+		                           				<em>Seoul</em>
+		                        			</span>
+	        								</div>
+	        								
+                                        </div>
+                                    </div>
+                                    <div class="hover-element__reveal" data-overlay="9">
+                                        <div class="boxed">
+                                            <span class="img__description">
+                                                <em>Jiyoung needs a description</em>
+                                            </span>
+                                            <br>
+                                            <div class="video-play-icon video-play-icon--sm playPreview" onclick="jiyoung()"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end hover element-->
+	        					</div>
+	        			</div>
+	        			<!--end jiyoung-->
+				</div>
+				</div>
+			</section>
+
+
+
 	        <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
 			        <ul class="footer__navigation">

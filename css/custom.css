@@ -4,13 +4,13 @@ global
 ****************************/
 
 body {
-	color: #c5c5c5;
-	background-color: #20212a;
-	font-family: 'Source Code Pro';
+  color: #c5c5c5;
+  background-color: #20212a;
+  font-family: 'Source Code Pro';
 }
 
 .bg--dark {
-	background: #20212a;
+  background: #20212a;
 }
 
 
@@ -18,18 +18,17 @@ body {
 colors
 ****************************/
 #game--color {
-	color: #c24051;
+  color: #c24051;
 }
 
 #map--color {
-	color: #39c46f;
+  color: #39c46f;
 }
 
 .btn.btn--primary {
-	border-color: #e3c742;
-	background: #3d4051;
+  border-color: #e3c742;
+  background: #3d4051;
 }
-
 
 
 #game--color.btn.btn--primary:hover {
@@ -47,6 +46,33 @@ colors
   color: #fff;
 }
 
+.northAmerica {
+  background-color: #008776;
+}
+
+.southAmerica {
+  background-color: #664925;
+}
+
+.africa {
+  background-color: #724735;
+}
+
+.asia {
+  background-color: #752536;
+}
+
+.australia {
+  background-color: #55739f;
+}
+
+.europe {
+  background-color: #497246;
+}
+
+.ocean {
+  background-color: #1b2f54;
+}
 
 
 .nav-bar.bg--dark .menu > li > a:hover {
@@ -77,21 +103,22 @@ colors
 typography
 ****************************/
 a {
-	color: #fff;
+  color: #fff;
 }
 
 .lead {
-	font-family: 'Open Sans';
+  font-family: 'Open Sans';
 }
 
 h2 {
-	
+  
 }
 h3 {
-	font-family: 'Montserrat';
-	font-weight: normal;
+  font-family: 'Montserrat';
+  font-weight: normal;
 
 }
+
 
 .menu > li {
   position: relative;
@@ -114,3 +141,67 @@ h3 {
   -ms-user-select: none;
   user-select: none;
 }
+
+/***************************
+map pages
+****************************/
+
+.header img {
+  /*height: 400px;*/
+  width: 100%;
+}
+
+.region {
+  font-size: 4em;
+  color: #f4f5f6;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.region-title {
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.screen {
+  background-image: url("../images/8bit black.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+min-height: 540px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.card {
+  border: 2px solid #1b2f54;
+  border-radius: 25px;
+  contain: content;
+}
+
+.card-1 .card__title {
+  padding: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0.2em;
+  color: #fff;
+  line-height: 2.5em;
+  text-align: center;
+}
+
+.card h5 {
+  color: #fff;
+}
+
+.playPreview {
+  position: absolute;
+  right: 12%;
+  bottom: 6%;
+}
+
+.img__description {
+  padding-bottom: 40%;
+

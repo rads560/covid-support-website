@@ -2260,7 +2260,7 @@ section.bg--dark .slider.slider--controlsoutside[data-paging="true"] .owl-theme 
 .hover-element {
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 .hover-element * {
   transition: 0.3s ease;
@@ -6070,7 +6070,7 @@ section.features .feature-2 {
 }
 @media all and (max-width: 767px) {
   .card .card__body {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     min-width: 100%;
   }
 }
@@ -8211,32 +8211,3 @@ section[class*='elements-'] hr + .row {
   background-size: cover;
 }
 
-.header img {
-  /*height: 400px;*/
-  width: 100%;
-}
-
-.region {
-  font-size: 4em;
-  color: #f4f5f6;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.region-title {
-  height: 150px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.screen {
-  background-color: white;
-  height: 300px;
-  width: 600px;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
