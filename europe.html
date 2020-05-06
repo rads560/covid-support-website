@@ -1,9 +1,8 @@
-
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Home</title>
+        <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
@@ -15,7 +14,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Press+Start+2P&family=Source+Code+Pro:wght@200;400&display=swap" rel="stylesheet">
     </head>
-    <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
+    <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">	
 		<div class="nav-container">
 			<nav>
 		        <div class="nav-bar bg--dark" data-fixed-at="700">
@@ -26,6 +25,26 @@
 		                    </li>
 		                    <li>
 		                        <a href="map.html" id="map--color">map</a>
+		                        <ul class="make-right">
+		                            <li>
+		                                <a href="na.html" class="region-active">North America</a>
+		                            </li>
+		                            <li class="vpf">
+		                                <a href="sa.html">South America</a>
+		                            </li>
+		                           	<!-- <li class="vpf">
+		                                <a href="europe.html">Europe</a>
+		                            </li> -->
+		                          	<li class="vpf">
+		                                <a href="africa.html">Africa</a>
+		                            </li>
+		                           	<li class="vpf">
+		                                <a href="asia.html">Asia</a>
+		                            </li>
+		                            <li class="vpf">
+		                                <a href="australia.html">Australia</a>
+		                            </li> 
+		                        </ul>
 		                    </li>
 		                    <li class="vpf">
 		                        <a href="COVID-19.html" id="game--color">game</a>
@@ -36,17 +55,6 @@
 		                    <li>
 		                        <a href="form.html">connect</a>
 		                    </li>
-		                    <!-- <li>
-		                        <a href="#">Dropdown</a>
-		                        <ul class="make-right">
-		                            <li>
-		                                <a href="about.html">about</a>
-		                            </li><li class="vpf">
-		                                <a href="form.html">talk to us</a>
-		                            </li>
-		                            
-		                        </ul>
-		                    </li> -->
 		                </ul>
 		            </div>
 		        </div>
@@ -56,63 +64,41 @@
 		    </nav>
 		</div>
 
+		<div class="header">
+			<img src="images/EUROPE.png">
+			<ul class="region col-med-12">
+		    	<li class="region-title"></li>
+			</ul>
+		</div>
 
-
-
-
-		
 		<div class="main-container">
-
-	
-
-		<div class="homepage__video">
-			<video id="homepage__interviews" autoplay>
-				<source src="videos.mp4" type="video/mp4">
-			</video>
-			<script> document.getElementById('homepage__interviews').play() </script>
-		</div>
-		<div id="homepage_video_overlay">	
-			<section class="height-90 cover cover-2">
-				<div class="row text-center">
-					<br>
-					<br>
-					<p class="title">Welcome.</p>
-					<p class="lead">What is normal?</p>
-					<!-- <p class="lead">what moments will we carry into the future?</p> -->
-					<br>
-					<br>
-					<p class="lead">How has COVID-19 impacted our individual lives?</p>
-					<p class="lead">Explore the map to view testimonies, or proceed to the game to explore an alternate timeline</p>
-				</div>
-				<br>
-				<br>
-				<br>
-
-
-				<div class="btn_homepage">		
-                	<div class="col-sm-6  text-center">
-                    <!-- <p class="lead"><strong>what will you do</strong></p> -->
-                    <a class="btn btn--primary btn--lg" id="map--color"href="map.html">
-                        <span class="btn__text">
-                            Explore the Map</span>
-                    </a>
-                    </div>
-                
-            
-            <!-- <div class="button__overlay"> -->
-                <div class="col-sm-6 text-center">
-                    <!-- <p class="lead"><strong>who will you see</strong></p> -->
-                    <a class="btn btn--primary btn--lg" id="game--color" href="COVID-19.html">
-                        <span class="btn__text">
-                            Play the Game</span>
-                    </a>
-            	 </div>
-            </div>	 
-           <!-- </div>      -->  
-		    </section>
-		</div>
-
-		    <footer class="footer-3 bg--dark text-center-xs">
+			<section class="bg--dark section--even">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-sm-12">
+	                        <!-- <h6>something</h6> -->
+	                        <p class="lead" style="text-align: center">
+	                            There are currently no videos in this region.<br>To share your experience, <a href="form.html">click here.</a>
+	                        </p>
+	                    </div>
+	                </div>
+	            </div>
+	            <!-- <div class="screen">
+					Video goes here!
+				</div> -->
+	        </section>
+	        <section class="masonry-contained">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="masonry">
+	                        <div class="masonry__container masonry--animate masonry--active">
+	                        <!-- use <div class="img__description_europe"> </div>-->	
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>     
+	        </section>
+	        <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
 			        <ul class="footer__navigation">
 			            <li>
@@ -135,11 +121,10 @@
 		   		</div>
 			</footer>
 		</div>
-				
 		<script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/isotope.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
-				
