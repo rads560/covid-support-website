@@ -55,9 +55,24 @@
 		        </div>
 		    </nav>
 		</div>
+
+
+
+
+
 		
 		<div class="main-container">
-			<section class="height-70 cover cover-2">
+
+	
+
+		<div class="homepage__video">
+			<video id="homepage__interviews" autoplay>
+				<source src="videos.mp4" type="video/mp4">
+			</video>
+			<script> document.getElementById('homepage__interviews').play() </script>
+		</div>
+		<div id="homepage_video_overlay">	
+			<section class="height-90 cover cover-2">
 				<div class="row text-center">
 					<br>
 					<br>
@@ -72,21 +87,31 @@
 				<br>
 				<br>
 				<br>
-                <div class="col-sm-6  bg--dark text-center">
+
+
+				<div class="btn_homepage">		
+                	<div class="col-sm-6  text-center">
                     <!-- <p class="lead"><strong>what will you do</strong></p> -->
                     <a class="btn btn--primary btn--lg" id="map--color"href="map.html">
                         <span class="btn__text">
                             Explore the Map</span>
                     </a>
-                </div>
-                <div class="col-sm-6 bg--dark text-center">
+                    </div>
+                
+            
+            <!-- <div class="button__overlay"> -->
+                <div class="col-sm-6 text-center">
                     <!-- <p class="lead"><strong>who will you see</strong></p> -->
                     <a class="btn btn--primary btn--lg" id="game--color" href="COVID-19.html">
                         <span class="btn__text">
                             Play the Game</span>
                     </a>
-                </div>
+            	 </div>
+            </div>	 
+           <!-- </div>      -->  
 		    </section>
+		</div>
+
 		    <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
 			        <ul class="footer__navigation">
