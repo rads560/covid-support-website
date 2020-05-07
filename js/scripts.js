@@ -1871,11 +1871,12 @@ mr = (function (mr, $, window, document){
 					var player = $(this);
 					var vidURL = $(this).attr('data-video-url');
 					var startAt = $(this).attr('data-start-at');
-					player.attr('data-property','{videoURL:"'+vidURL+'",containment:"self",autoPlay:true, mute:true, startAt:'+startAt+', opacity:1}');
+					player.attr('data-property','{videoURL:"'+vidURL+'", containment:"self", showYTLogo: false, ratio: "16/9", showControls: false, loop: true, autoPlay:true, mute:true, startAt:'+startAt+', opacity:1}');
 					player.closest('.videobg').append('<div class="loading-indicator"></div>');
 					player.YTPlayer();
-					player.on("YTPStart",function(){
+					player.on("YTPReady",function(){
 				  		player.closest('.videobg').addClass('video-active');
+                        player.YTPSetAnchor('center,center');
 					});	
 				});
 			}

@@ -61,57 +61,53 @@
 
 
 		
-		<div class="main-container">
-
-	
-
-		<div class="homepage__video">
-			<video id="homepage__interviews" autoplay>
-				<source src="videos.mp4" type="video/mp4">
-			</video>
-			<script> document.getElementById('homepage__interviews').play() </script>
-		</div>
-		<div id="homepage_video_overlay">	
+		<div class="main-container ">
 			<section class="height-90 cover cover-2">
-				<div class="row text-center">
-					<br>
-					<br>
-					<p class="title">Welcome.</p>
-					<p class="lead">What is normal?</p>
-					<!-- <p class="lead">what moments will we carry into the future?</p> -->
-					<br>
-					<br>
-					<p class="lead">How has COVID-19 impacted our individual lives?</p>
-					<p class="lead">Explore the map to view testimonies, or proceed to the game to explore an alternate timeline</p>
-				</div>
-				<br>
-				<br>
-				<br>
+				<div class="monitorBorder">
 
+					<!-- everything inside the monitor frame HAS to be in this container specifically      -->  
+					<div class="monitorContainer imagebg videobg">
+						<div class="youtube-background" data-video-url="D47LMjsV5Kk" data-start-at="0"></div>
+						<div class="row text-center">
 
-				<div class="btn_homepage">		
-                	<div class="col-sm-6  text-center">
-                    <!-- <p class="lead"><strong>what will you do</strong></p> -->
-                    <a class="btn btn--primary btn--lg" id="map--color"href="map.html">
-                        <span class="btn__text">
-                            Explore the Map</span>
-                    </a>
-                    </div>
-                
-            
-            <!-- <div class="button__overlay"> -->
-                <div class="col-sm-6 text-center">
-                    <!-- <p class="lead"><strong>who will you see</strong></p> -->
-                    <a class="btn btn--primary btn--lg" id="game--color" href="COVID-19.html">
-                        <span class="btn__text">
-                            Play the Game</span>
-                    </a>
-            	 </div>
-            </div>	 
-           <!-- </div>      -->  
-		    </section>
-		</div>
+							<!-- welcome text    -->  
+							<div class="col-sm-10 col-sm-offset-1 ">
+								<p class="title">Welcome.</p>
+								<p class="welcomeText">What is normal?</p>
+								
+								<br>
+								<p class="welcomeText">How has COVID-19 impacted our individual lives?</p>
+								<p class="welcomeText">Explore the map to view testimonies, or proceed to the game to explore an alternate timeline</p>
+						
+							</div>
+						</div>
+						 	<!-- buttons -->
+						
+			    	</div>	
+			    </div>    
+					<div class="row text-center">
+							<div class="btn_homepage">		
+			                	<div class="col-sm-6  text-center">
+			                   
+			                    <a class="btn btn--primary btn--sm" id="map--color"href="map.html">
+			                        <span class="btn__text">
+			                            Explore the Map</span>
+			                    </a>
+			                    </div>
 
+			                	<div class="col-sm-6 text-center">
+			                    <!-- <p class="lead"><strong>who will you see</strong></p> -->
+			                    <a class="btn btn--primary btn--sm" id="game--color" href="COVID-19.html">
+			                        <span class="btn__text">
+			                            Play the Game</span>
+			                    </a>
+			            	 	</div>
+			            	</div>	 
+			        	</div>
+
+			      <!-- </div>      -->  
+			</section>
+			
 		    <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
 			        <ul class="footer__navigation">
@@ -133,13 +129,15 @@
 			        </ul>
 			        <span class="type--fine-print">© Copyright <span class="update-year">2020</span>
 		   		</div>
-			</footer>
-		</div>
-				
+			</footer>	
+			</div>
+
+			
 		<script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/jquery.mb.YTPlayer.min.js"></script>
     </body>
 </html>
 				

@@ -1116,13 +1116,11 @@ a {
   transition: 0.1s linear;
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
-  border-radius: 100px;
+  
   padding-top: 0.54166667em;
   padding-bottom: 0.65em;
   padding-right: 3.25em;
   padding-left: 3.25em;
-  border: 1px solid #e3c742;
-  border-width: 2px;
   font-size: inherit;
   line-height: 1.625em;
   text-transform: uppercase;
@@ -1130,8 +1128,7 @@ a {
 }
 .btn .btn__text,
 .btn i {
-  color: #343434;
-  border-color: #343434;
+
   font-weight: 400;
   font-size: 0.625em;
 }
@@ -1217,8 +1214,7 @@ a {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #AC8F19;
-  border-color: #e3c742;
+  background: #5e5f59;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -1237,7 +1233,6 @@ a {
 .btn--primary-1,
 .btn--primary-1:visited {
   background: #20212a;
-  border-color: #e3c742;
 }
 .btn--primary-1 .btn__text,
 .btn--primary-1:visited .btn__text {
@@ -2753,7 +2748,8 @@ iframe {
   height: 100%;
   width: 100%;
   top: 0;
-  z-index: 0 !important;
+  z-index: -1 !important;
+
 }
 .youtube-background .mb_YTPBar {
   opacity: 0;
@@ -2762,7 +2758,7 @@ iframe {
 }
 @media all and (max-width: 1024px) {
   .youtube-background {
-    display: none;
+    object-fit: cover;
   }
 }
 .loading-indicator {
@@ -3501,7 +3497,8 @@ span.label {
 }
 /*! -- Pillar Buttons -- */
 .btn.btn--primary {
-  border-color: #e3c742;
+
+
 }
 
 .btn.btn--success {
@@ -3541,9 +3538,7 @@ span.label {
 .btn--xs {
   padding-bottom: 1px;
 }
-.bg--primary .btn {
-  border-color: rgba(255, 255, 255, 0.1);
-}
+
 .bg--primary .btn .btn__text {
   color: #fff;
 }
