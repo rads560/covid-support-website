@@ -2747,6 +2747,7 @@ iframe {
   position: absolute;
   height: 100%;
   width: 100%;
+  min-height: 55vh;
   top: 0;
   z-index: -1 !important;
 
@@ -3342,10 +3343,10 @@ h6,
   margin-bottom: 0;
 }
 a {
-  color: #232323;
+  color: #323424;
 }
 a:hover {
-  color: #232323;
+  color: #323424;
 }
 span a,
 p a {
@@ -6838,7 +6839,8 @@ section:first-of-type.imagebg + .masonry-contained {
 }
 /*! -- Pillar Hover Elements & Portfolio -- */
 .hover-element img {
-  width: 100%;
+  width:  100%;
+  object-fit: cover;
 }
 .hover-element * {
   transition: 0.3s ease-in;
@@ -6866,7 +6868,7 @@ section:first-of-type.imagebg + .masonry-contained {
 }
 .hover-element[data-title-position*="center"] .hover-element__reveal .boxed {
   position: absolute;
-  height: auto;
+  height: 100%;
   top: 50%;
   width: 100%;
   transform: translate3d(10px, -50%, 0);
@@ -6877,7 +6879,7 @@ section:first-of-type.imagebg + .masonry-contained {
   -webkit-transform: translate3d(0, -50%, 0);
 }
 .hover-element[data-title-position*="bottom"] .hover-element__reveal .boxed {
-  position: absolute;
+  position: relative;
   height: auto;
   bottom: 0;
   width: 100%;
@@ -7855,7 +7857,7 @@ footer .logo {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 1em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;

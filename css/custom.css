@@ -4,9 +4,16 @@ global
 ****************************/
 
 body {
-  color: #c5c5c5;
+  color: #1b1b1b;
   background-color: #20212a;
   font-family: 'Source Code Pro';
+  font-size: 1em;
+}
+
+body, tw-story {
+    font-family: "Press Start 2P";
+  font-size: 0.6em ;
+  line-height: 1.2em;
 }
 
 .bg--dark {
@@ -89,9 +96,9 @@ colors
 .btn .btn__text,
 .btn i {
   color: #fff;
-
+  padding: .1em;
   font-weight: 400;
-  font-size: 0.625em;
+  font-size: 0.9em;
 }
 
 .tabs-1 .tabs li.active .btn {
@@ -166,7 +173,37 @@ h3 {
   user-select: none;
 }
 
+.prev--btn {
+  background-image: url("../images/previous_icon4.png");
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-radius: 0;
 
+}
+
+.next--btn {
+  background-image: url("../images/next_icon4.png");
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-radius: 0;
+
+}
+
+.main-container {
+  height: 100%;
+}
+
+.main-container section {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  font-family: 'Press Start 2P', sans-serif;
+}
 
 .title, .lead {
   color: #f4f5f6;
@@ -183,7 +220,7 @@ p.lead {
 }
 
 p.title {
-	margin-bottom: 1.5em;
+	margin: 1.5em 0;
 }
 
 p.about-lead {
@@ -195,16 +232,18 @@ p.about-lead {
 }
 
 
+
 /***************************
 landing pages
 ****************************/
 
 .welcomeText {
 	font-family: 'Press Start 2P';
-	font-size: 1em;
-	line-height: 2em;
+	font-size: 1.5em;
+	line-height: 3em;
 	letter-spacing: .05em;
 	color: #192b2b;
+  padding-top: 2em;
 }
 
 .monitorBorder {
@@ -212,15 +251,24 @@ landing pages
   border-image-width: 20%;
   border-image: url("../images/frame2845x1944.png") 30 fill /60px/ 60px stretch;
   margin:  5%;
-  padding-top: calc(1080px/1920px*100%);
+  
 }
+
+.monitorBorderGreen {
+  border-style: solid;
+  border-image-width: 20%;
+  border-image: url("../images/greenBGframe.png") 30 fill /60px/ 60px stretch;
+  margin:  5%;
+
+}
+
 
 .monitorContainer {
 	
 	background: transparent;
 	margin:5%;
-  	
-  	object-fit: cover;
+  min-height: 50vh;
+  object-fit: cover;
 }
 
 /***************************
