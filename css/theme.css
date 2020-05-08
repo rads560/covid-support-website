@@ -219,8 +219,9 @@ h6,
   line-height: 2.6em;
 }
 .lead {
-  font-size: 1.4375em;
+  font-size: 0.875em;
   line-height: 1.69565217em;
+  text-align: center;
 }
 .title {
   font-size: 3em;
@@ -505,7 +506,7 @@ body {
 /**! 6. Images **/
 img {
   max-width: 100%;
-  margin-bottom: 1.625em;
+  margin: 0;
 }
 /*p+img, img:last-child{
   margin-bottom: 0;
@@ -1121,7 +1122,7 @@ a {
   padding-bottom: 0.65em;
   padding-right: 3.25em;
   padding-left: 3.25em;
-  font-size: inherit;
+  font-size: 0.8em;
   line-height: 1.625em;
   text-transform: uppercase;
 
@@ -1990,7 +1991,7 @@ button:focus {
 .boxed {
   position: relative;
   overflow: hidden;
-  padding: 2.4375em;
+  padding: 1.2375em;
   margin-bottom: 30px;
 }
 .boxed.boxed--lg {
@@ -2701,7 +2702,7 @@ iframe {
   }
 }
 .videobg {
-  background: #232323;
+  background: #20212a;
   position: relative;
   overflow: hidden;
 }
