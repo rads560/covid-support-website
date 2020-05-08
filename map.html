@@ -71,23 +71,6 @@
                 <br>
 	            <div class="container">
 	                <div class="row" style="text-align: center">
-	                    <!-- <div class="col-sm"> -->
-	                        <!-- <h6>map</h6> -->
-	                        <!-- <p class="title" style="text-align: center;">
-	                            choose a region to view.
-	                        </p> -->
-	                    <!-- </div>	 -->
-	                    <!-- <div class="row">
-						  <div class="col-sm-4"><a href="na.html" class="btn btn-primary btn-custom">North America</a></div>
-						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Europe</a></div>
-						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Asia</a></div>
-						</div>
-						<br>
-						<div class="row">
-						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">South America</a></div>
-						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Africa</a></div>
-						  <div class="col-sm-4"><a href="#" class="btn btn-primary btn-custom">Australia</a></div>
-						</div> -->
 	                    <div class="col-lg" style="text-align: center">
 	                    	<a href="na.html" class="btn btn--primary btn--sm northAmerica">North America</a>
 							<a href="europe.html" class="btn btn--primary btn--sm europe">Europe</a>
@@ -100,17 +83,26 @@
 							<a href="australia.html" class="btn btn--primary btn--sm australia">Australia</a>
 	                    </div>
 	                    <br>
-	                    <img class="img-responsive" src="images/coloredmap.png" alt="" usemap="#videomap">
-	                    <map name="videomap">
+	                </div>
+	                <div class="row" style="text-align: center">
+	                	<img class="img-responsive" src="images/coloredmap.png" alt="" usemap="#videomap">
+	                	<map name="videomap">
 						  <!-- image is 1170 wide by 610 tall -->
-						  <area shape="rect" coords="120,10,510,400" alt="north america" href="na.html">
+						  <area shape="rect" coords="230,10,1050,820" alt="north america" href="na.html">
+						  <area shape="rect" coords="700,820,950,1230" alt="south america" href="sa.html">
+						  <area shape="rect" coords="1050,300,1430,680" alt="europe" href="europe.html">
+						  <area shape="rect" coords="1020,680,1400,1050" alt="africa" href="africa.html">
+						  <area shape="rect" coords="1430,100,2100,900" alt="asia" href="asia.html">
+						  <area shape="rect" coords="1700,900,2050,1150" alt="australia" href="australia.html">
+						  <!-- <area shape="rect" coords="120,10,510,400" alt="north america" href="na.html">
 						  <area shape="rect" coords="330,400,480,610" alt="south america" href="sa.html">
 						  <area shape="rect" coords="510,150,700,350" alt="europe" href="europe.html">
 						  <area shape="rect" coords="510,300,700,530" alt="africa" href="africa.html">
 						  <area shape="rect" coords="670,60,1050,450" alt="asia" href="asia.html">
-						  <area shape="rect" coords="800,400,1000,610" alt="australia" href="australia.html">
+						  <area shape="rect" coords="800,400,1000,610" alt="australia" href="australia.html"> -->
 						</map>
 	                </div>
+	                <br>
 	                <div class="col-sm-12">
                         <!-- <h6>map</h6> -->
                         <p class="lead" style="text-align: center;">
@@ -142,6 +134,11 @@
 		   		</div>
 			</footer>
 		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+		<script type="text/javascript">
+			$('map').imageMapResize();
+		</script>
 		<script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/isotope.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
