@@ -10,10 +10,10 @@ body {
   font-size: 1em;
 }
 
-body, tw-story {
-    font-family: "Press Start 2P";
+body tw-story {
+  font-family: "Press Start 2P";
   font-size: 0.6em ;
-  line-height: 1.2em;
+  line-height: 1.8em;
 }
 
 .bg--dark {
@@ -98,7 +98,7 @@ colors
   color: #fff;
   padding: .1em;
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .tabs-1 .tabs li.active .btn {
@@ -119,8 +119,8 @@ colors
 
 #game--color.btn.btn--primary:hover {
 
-  border-top: 4px solid #c24051;
-  border-left: 4px solid #c24051;
+  border-top: 4px double #c24051;
+  border-left: 4px double #c24051;
   transform: translate3d(5px, 0, 0);
   -webkit-transform: translate3d(5px, 0, 0);
   
@@ -128,8 +128,8 @@ colors
 
 #map--color.btn.btn--primary:hover {
 
-  border-top: 4px solid #39c46f;
-  border-left: 4px solid #39c46f;
+  border-top: 4px double #39c46f;
+  border-left: 4px double #39c46f;
   transform: translate3d(5px, 0, 0);
   -webkit-transform: translate3d(5px, 0, 0);
 }
@@ -206,7 +206,7 @@ h3 {
 }
 
 .title, .lead {
-  color: #f4f5f6;
+  color: #202218;
   text-shadow: 2px 2px rgb(20,20,20);
 }
 
@@ -223,11 +223,14 @@ p.title {
 	margin: 1.5em 0;
 }
 
-p.about-lead {
-  border: 1px solid #f4f5f6;
-  box-shadow: 5px 5px white;
+.about-lead {
+  border-bottom: 0.6em double #192b2b;
+  border-right:  0.6em  double #192b2b;
+  border-top:  0.6em  double #f4f5f6;
+  border-left:  0.6em  double #f4f5f6;
+  background-color: #ddd7c0;
   padding: 15px;
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: 'Press Start 2P', sans-serif;
 }
 
@@ -239,8 +242,8 @@ landing pages
 
 .welcomeText {
 	font-family: 'Press Start 2P';
-	font-size: 1.5em;
-	line-height: 3em;
+	font-size: 1em;
+	line-height: 2em;
 	letter-spacing: .05em;
 	color: #192b2b;
   padding-top: 2em;
