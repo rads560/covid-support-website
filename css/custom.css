@@ -26,10 +26,15 @@ colors
 ****************************/
 #game--color {
   color: #c24051;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+
 }
 
 #map--color {
   color: #39c46f;
+   font-size: 1.2em;
+   margin-bottom: 1em;
 }
 
 
@@ -168,7 +173,11 @@ colors
   border-radius: 0;
   
 }
-
+@media screen and (max-width: 600px) {
+  .btn .btn__text {
+    font-size: .6em;
+  }
+}
 
 #game--color.btn.btn--primary:hover {
 
@@ -204,7 +213,7 @@ a {
 }
 
 .lead {
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
 }
 
 h2 {
@@ -220,7 +229,7 @@ h3 {
 .masonry .masonry__filters li {
   display: inline-block;
   cursor: pointer;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   text-transform: lowercase;
   color: #e3c742;
   font-weight: 300;
@@ -268,6 +277,11 @@ h3 {
   text-shadow: 2px 2px rgb(20,20,20);
 }
 
+.aboutText {
+  font-family: 'Source Code Pro';
+  font-weight: 600;
+  font-size: 1.3em;
+}
 #about, #join_the_fun, #story {
   color: #20212a;
   font-family: 'Press Start 2P', sans-serif;
@@ -275,7 +289,8 @@ h3 {
 
 p.lead {
    font-family: 'Press Start 2P', sans-serif;
-   padding-top: 1em;
+   padding-top: 1.2em;
+   line-height: 2em;
 }
 
 p.title {
@@ -300,13 +315,20 @@ landing pages
 ****************************/
 
 .welcomeText {
-	font-family: 'Press Start 2P';
-	font-size: 1em;
+	font-family: 'Titillium Web';
+
 	line-height: 2em;
 	letter-spacing: .05em;
 	color: #192b2b;
   padding-top: 2em;
+
   text-shadow: #192b2b 1px 1px 0;
+}
+
+.welcomeOverlay {
+  background-color: rgba(32,33,42,0.2);
+  width: 80%;
+  height: 80%;
 }
 
 .monitorBorder {
@@ -327,13 +349,28 @@ landing pages
 
 .monitorContainer {
 	
-	background: transparent;
-	margin:12% 6%;
+  background: transparent;
+	margin:5%;
   min-height: 50vh;
   object-fit: cover;
   
 }
 
+#app {
+  line-height: 3em;
+  font-family: 'Source Code Pro';
+  font-size: 2.1em;
+  font-weight: 500;
+  min-height: 2em;
+  color: #fff;
+  text-shadow: 2px 1px 0px #1b1b1b;
+}
+
+@media screen and (max-width: 600px) {
+  #app {
+    font-size: 1.5em;
+  }
+}
 /***************************
 map pages
 ****************************/
@@ -440,4 +477,8 @@ game
   right: 8%;
   min-height: 2em;
   min-width: 3em;
+}
+
+form {
+  background-color: #20212a;
 }

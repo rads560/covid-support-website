@@ -288,8 +288,11 @@ hr {
 a:hover,
 a:focus,
 a:active {
+  padding-bottom: 0.3em;
+
   text-decoration: none;
   outline: none;
+
 }
 /*! Typography -- Helpers */
 .type--fade {
@@ -1122,7 +1125,7 @@ a {
   padding-bottom: 0.65em;
   padding-right: 3.25em;
   padding-left: 3.25em;
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.625em;
   text-transform: uppercase;
 
@@ -1205,13 +1208,13 @@ a {
   padding-left: 2.16666667em;
 }
 .btn--lg {
-  padding-top: 0.67708333em;
-  padding-bottom: 0.8125em;
+  padding-top: 0.6em;
+  padding-bottom: 0.4125em;
   padding-right: 4.0625em;
   padding-left: 4.0625em;
 }
 .btn--lg .btn__text {
-  font-size: 0.78125em;
+  font-size: 1em;
 }
 .btn--primary,
 .btn--primary:visited {
@@ -2301,7 +2304,7 @@ section.bg--dark .slider.slider--controlsoutside[data-paging="true"] .owl-theme 
 .masonry .masonry__filters li {
   display: inline-block;
   cursor: pointer;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   text-transform: lowercase;
   font-weight: 300;
   -webkit-user-select: none;
@@ -3145,6 +3148,7 @@ footer.space-bottom--sm {
   padding-bottom: 4.33333333em;
 }
 @media all and (max-width: 767px) {
+
   section,
   footer,
   section.section--even {
@@ -3364,7 +3368,7 @@ h3 em,
 h4 em,
 h5 em,
 h6 em {
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   font-weight: 400;
   font-style: italic;
 }
@@ -7863,9 +7867,20 @@ footer .logo {
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 400;
-  margin-bottom: 2.36363636363636em;
+  font-weight: 400;  
+  padding: 0.5em;
+ 
 }
+.footer-3 .footer__navigation li a:hover {
+
+  border-bottom: 3px solid #202218;
+  border-right: 3px solid #202218;
+  border-top: 3px double #fbf4da;
+  border-left: 3px double #fbf4da;
+
+}
+
+
 .footer-3 .social-list {
   margin-bottom: 1.625em;
 }

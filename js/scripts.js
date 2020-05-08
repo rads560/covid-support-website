@@ -1861,6 +1861,15 @@ mr = (function (mr, $, window, document){
 //////////////// Video
 mr = (function (mr, $, window, document){
     "use strict";
+
+    var app = document.getElementById('app');
+    const instance = new Typewriter(app, {
+        strings: ['What is normal?', 'How has COVID-19 impacted our individual lives?'],
+        autoStart: true,
+        loop:true,
+    });
+
+    
     
 	  var documentReady = function($){
 	      

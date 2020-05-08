@@ -13,7 +13,8 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Press+Start+2P&family=Source+Code+Pro:wght@200;400&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     </head>
     <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
 		<div class="nav-container">
@@ -62,28 +63,13 @@
 
 		
 		<div class="main-container ">
-			<section class="height-90 cover ">
-				<div class="monitorBorder">
-
-					<!-- everything inside the monitor frame HAS to be in this container specifically      -->  
-					<div class="monitorContainer imagebg videobg">
-						<div class="youtube-background" data-video-url="D47LMjsV5Kk" data-start-at="0"></div>
-							<div class="row text-center">
-
-								<!-- welcome text    -->  
-								<div class="col-sm-10 col-sm-offset-1">
-										<p class="title">Welcome.</p>
-									
-										<p class=" welcomeText">What is normal?
-								
-										<br>
-										How has COVID-19 impacted our individual lives?
-										Explore the map to view testimonies, or proceed to the game to explore an alternate timeline</p>
-								</div>
-							</div>
-			    		</div>	
-			    	</div>
-			     <!-- buttons -->
+			<section class="height-100 cover ">
+				<div class="row text-center">
+					<div id="app">
+						
+					</div>
+				</div>
+				<!-- buttons -->
 					<div class="row text-center">
 							<div class="btn_homepage">		
 			                	<div class="col-sm-6  text-center">
@@ -93,7 +79,7 @@
 			                            Explore the Map</span>
 			                    </a>
 			                    </div>
-
+			                    
 			                	<div class="col-sm-6 text-center">
 			                    <!-- <p class="lead"><strong>who will you see</strong></p> -->
 			                    <a class="btn btn--primary btn--sm" id="game--color" href="COVID-19.html">
@@ -102,7 +88,17 @@
 			                    </a>
 			            	 	</div>
 			            	</div>	 
-			        	</div>
+			        </div>
+			        	
+				<div class="monitorBorder">
+
+					<!-- everything inside the monitor frame HAS to be in this container specifically      -->  
+					<div class="monitorContainer imagebg videobg ">
+						<div class="youtube-background" data-video-url="D47LMjsV5Kk" data-start-at="0"></div>
+							
+			    		</div>	
+			    </div>
+			     
 
 			      <!-- </div>      -->  
 			</section>
@@ -114,10 +110,10 @@
 	                        <a href="index.html">welcome</a>
 	                    </li>
 	                    <li>
-	                        <a href="map.html" id="map--color">map</a>
+	                        <a href="map.html">map</a>
 	                    </li>
 	                    <li class="vpf">
-	                        <a href="COVID-19.html" id="game--color">game</a>
+	                        <a href="COVID-19.html">game</a>
 	                    </li>
 	                    <li>
 	                        <a href="about.html">about</a>
@@ -134,9 +130,11 @@
 			
 		<script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
+        <script src="js/core.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/jquery.mb.YTPlayer.min.js"></script>
+
     </body>
 </html>
 				
