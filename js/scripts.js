@@ -1,4 +1,5 @@
 
+
 var mr = (function ($, window, document){
     "use strict";
 
@@ -1864,12 +1865,29 @@ mr = (function (mr, $, window, document){
 
     var app = document.getElementById('app');
     const instance = new Typewriter(app, {
-        strings: ['What is normal?', 'How has COVID-19 impacted our individual lives?'],
         autoStart: true,
         loop:true,
+        delay: 100,
     });
 
-    
+    instance.changeCursor('_')
+    .typeString('What is normal?')
+    .pauseFor(2500)
+    .deleteChars(15)
+    .typeString('How has COVID-19 impacted our individual lives?')
+    .pauseFor(2000)
+    .changeDeleteSpeed(35)
+    .deleteChars(47)
+    .typeString('Explore the map to view testimonies or')
+    .pauseFor(1000)
+    .deleteChars(26)
+    .typeString('game to visit an alternate timeline')
+    .pauseFor(2500)
+    .deleteAll()
+    .pause(500)
+    .start();
+
+
     
 	  var documentReady = function($){
 	      

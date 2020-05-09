@@ -8,6 +8,7 @@ body {
   background-color: #20212a;
   font-family: 'Source Code Pro';
   font-size: 1em;
+
 }
 
 body tw-story {
@@ -228,7 +229,7 @@ h3 {
 
 .masonry .masonry__filters li {
   display: inline-block;
-  cursor: pointer;
+
   font-family: 'Montserrat';
   text-transform: lowercase;
   color: #e3c742;

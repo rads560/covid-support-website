@@ -7868,7 +7868,7 @@ footer .logo {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;  
-  padding: 0.5em;
+  padding: 1em 0.5em 0.5em 1em;
  
 }
 .footer-3 .footer__navigation li a:hover {
