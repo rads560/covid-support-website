@@ -87,7 +87,7 @@
 	            	<div class="row">
 	            		<div class="col-sm-10 col-sm-offset-1">
 	            			<div class="monitorBorder"> 
-	            			<div class="monitorContainer imagebg videobg" id="test">
+	            			<div class="monitorContainer" id="test">
 								<!-- Video goes here! -->
 								
 							</div>
@@ -100,28 +100,33 @@
 	        <script type="text/javascript">
 	        	function tineke() { 
 		        	var el = document.getElementById('test');
-		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/kkPBXPgRdvE\"></iframe>";
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" width=\"800\" height=\"500\" src=\"https://www.youtube.com/embed/kkPBXPgRdvE\"></iframe>";
 		        	var elmnt = document.getElementById('test');
 					elmnt.scrollIntoView();
 		        }
+		        function milena() { 
+		        	var el = document.getElementById('test');
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" width=\"800\" height=\"500\" src=\"https://www.youtube.com/embed/27wmDc_pOOg\"></iframe>";
+		        	var elmnt = document.getElementById('test');
+					elmnt.scrollIntoView();
+		        }		
 		    </script>    	
 
 	        <section>
 	        	<div class="container">
 	        		<div class="row">
 	        			<div class="col-md-3 col-sm-6">
-	        					<div class="card card-1">
-	        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
+        					<div class="card card-1">
+        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
                                     <div class="hover-element__initial">
                                         <img alt="Tienke" src="thumbnails/tineke.png" />
                                         <div class="card__body europe">
                                         	<div class="card__title">
 	        									<h5>Tineke</h5>
 	        									<span>
-		                           				<em>Netherlands</em>
+		                           					<em>Netherlands</em>
 		                        				</span>
 	        								</div>
-	        								
                                         </div>
                                     </div>
                                     <div class="hover-element__reveal" data-overlay="9">
@@ -134,17 +139,37 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-	        					</div>
+        					</div>
+	        			</div>
+	        			<div class="col-md-3 col-sm-6">
+        					<div class="card card-1">
+        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
+	                                <div class="hover-element__initial">
+	                                    <img alt="Milena" src="thumbnails/milena.png" />
+	                                    <div class="card__body asia">
+	                                    	<div class="card__title">
+	        									<h5>Milena</h5>
+	        									<span>
+		                           					<em>Russia</em>
+		                        				</span>
+	        								</div>
+	                                    </div>
+	                                </div>
+	                                <div class="hover-element__reveal" data-overlay="9">
+	                                    <div class="boxed">
+	                                        <span class="img__description">
+	                                            <em>Milena is a teacher currently quartering alone at home in Russia.</em>
+	                                        </span>
+	                                        <br>
+	                                        <div class="video-play-icon video-play-icon--sm playPreview" onclick="milena()"></div>
+	                                    </div>
+	                                </div>
+                            	</div>
+        					</div>
 	        			</div>
                     </div>
                 </div>
             </section>
-            
-	        
-
-
-
 
 	        <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
