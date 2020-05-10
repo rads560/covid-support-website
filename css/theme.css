@@ -165,7 +165,7 @@ body {
   line-height: 1.625em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #767676;
   font-weight: 400;
 }
@@ -181,7 +181,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #483048;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -288,7 +288,6 @@ hr {
 a:hover,
 a:focus,
 a:active {
-  padding-bottom: 0.3em;
 
   text-decoration: none;
   outline: none;
@@ -318,7 +317,7 @@ a:active {
   text-decoration: underline;
 }
 .type--body-font {
-  font-family: 'Source Code Pro', 'Helvetica';
+  font-family: 'Oxanium', 'Helvetica';
 }
 /**! 4. Position **/
 body {
@@ -1204,8 +1203,8 @@ a {
 .btn--sm {
   padding-top: 0.36111111em;
   padding-bottom: 0.43333333em;
-  padding-right: 2.16666667em;
-  padding-left: 2.16666667em;
+  padding-right: 1.16666667em;
+  padding-left: 1.16666667em;
 }
 .btn--lg {
   padding-top: 0.6em;
@@ -3355,11 +3354,12 @@ a:hover {
 }
 span a,
 p a {
-  text-decoration: underline;
+  margin-bottom: 1px;
+  border-bottom: 1px double #ddd7c0;
 }
 span a:hover,
 p a:hover {
-  text-decoration: underline;
+    border-bottom: 2px ridge #e3c742;
   opacity: .9;
 }
 h1 em,
@@ -7870,14 +7870,6 @@ footer .logo {
   font-weight: 400;  
   padding: 1em 0.5em 0.5em 1em;
  
-}
-.footer-3 .footer__navigation li a:hover {
-
-  border-bottom: 3px solid #202218;
-  border-right: 3px solid #202218;
-  border-top: 3px double #fbf4da;
-  border-left: 3px double #fbf4da;
-
 }
 
 

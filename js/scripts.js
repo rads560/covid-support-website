@@ -1863,6 +1863,7 @@ mr = (function (mr, $, window, document){
 mr = (function (mr, $, window, document){
     "use strict";
 
+
     var app = document.getElementById('app');
     const instance = new Typewriter(app, {
         autoStart: true,
