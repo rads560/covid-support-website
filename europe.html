@@ -72,25 +72,20 @@
 		</div>
 
 		<div class="main-container">
-			<!-- <section class="bg--dark section--even">
+			<section class="bg--dark section--even">
 	            <div class="container">
 	                <div class="row">
 	                    <div class="col-sm-12">
-	                        <h6>something</h6> 
-	                        <p class="lead" style="text-align: center">
-	                            There are currently no videos in this region.<br>To share your experience, <a href="form.html">click here.</a>
+	                        <!-- <h6>something</h6>  -->
+	                        <p class="lead" id="words" style="text-align: center">
+	                            Click the videos below to hear what people are experiencing in the era of COVID-19.
 	                        </p>
 	                    </div>
 	                </div>
-	            </div> -->
+	            </div>
 	            <div class="container">
-	            	<div class="row">
-	            		<div class="col-sm-10 col-sm-offset-1">
-	            			<div class="monitorBorder"> 
-	            			<div class="monitorContainer" id="test">
-								<!-- Video goes here! -->
-								
-							</div>
+	            	<div class="row" style="text-align: center;">
+	            		<div id="empty">
 	            		</div>
 	            		</div>
 	            	</div>
@@ -99,15 +94,19 @@
 
 	        <script type="text/javascript">
 	        	function tineke() { 
+	        		var umbrella = document.getElementById('empty');
+	        		umbrella.innerHTML = "<div id=\"empty\"><div class=\"monitorBorder\"><div class=\"monitorContainer\" id=\"test\"></div></div>";
 		        	var el = document.getElementById('test');
 		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" width=\"800\" height=\"500\" src=\"https://www.youtube.com/embed/kkPBXPgRdvE\"></iframe>";
-		        	var elmnt = document.getElementById('test');
+		        	var elmnt = document.getElementById('words');
 					elmnt.scrollIntoView();
 		        }
 		        function milena() { 
+		        	var umbrella = document.getElementById('empty');
+	        		umbrella.innerHTML = "<div id=\"empty\"><div class=\"monitorBorder\"><div class=\"monitorContainer\" id=\"test\"></div></div>";
 		        	var el = document.getElementById('test');
 		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" width=\"800\" height=\"500\" src=\"https://www.youtube.com/embed/27wmDc_pOOg\"></iframe>";
-		        	var elmnt = document.getElementById('test');
+		        	var elmnt = document.getElementById('words');
 					elmnt.scrollIntoView();
 		        }		
 		    </script>    	
