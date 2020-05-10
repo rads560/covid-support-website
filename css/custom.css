@@ -32,6 +32,13 @@ colors
 
 }
 
+#mute--color {
+  color: #6940c2;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+
+}
+
 #map--color {
   color: #39c46f;
    font-size: 1.2em;
@@ -200,6 +207,17 @@ colors
   transform: translate3d(5px, 0, 0);
   -webkit-transform: translate3d(5px, 0, 0);
 }
+
+#mute--color.btn.btn--primary:hover {
+
+  border-bottom: 6px double #192b2b;
+  border-right: 6px double #192b2b;
+  border-top: 6px double #e0d5d3;
+  border-left: 6px double #e0d5d3;
+  transform: translate3d(5px, 0, 0);
+  -webkit-transform: translate3d(5px, 0, 0);
+}
+
 
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
