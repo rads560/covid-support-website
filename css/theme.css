@@ -5124,6 +5124,7 @@ li + li .input-checkbox {
   width: 100%;
 }
 .tabs-4.tabs-container .tabs li {
+
   margin-right: 0;
 }
 .tabs-4.tabs-container .tabs li:first-child {
@@ -5131,23 +5132,24 @@ li + li .input-checkbox {
   left: 5px;
 }
 .tabs-4.tabs-container .tabs li:first-child .btn {
-  border-radius: 50px 0 0 50px;
+  border-radius: 0 0 0 0;
 }
 .tabs-4.tabs-container .tabs li:last-child {
   position: relative;
   right: 5px;
 }
 .tabs-4.tabs-container .tabs li:last-child .btn {
-  border-radius: 0 50px 50px 0;
+  border-radius: 0 0 0 0;
 }
 .tabs-4.tabs-container .tabs li.active .btn {
-  background: #232323;
+  border: 5px groove #e3c742;
+  background: transparent;
 }
 .tabs-4.tabs-container .tabs li.active .btn .btn__text {
   color: #fff;
 }
 .tabs-4.tabs-container .tabs li:not(.active) .btn {
-  border-color: #232323;
+   border: 5px groove #112056;
 }
 @media all and (max-width: 767px) {
   .tabs-4.tabs-container .tabs li {

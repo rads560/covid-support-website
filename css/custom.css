@@ -145,9 +145,25 @@ colors
   padding-left: 0;
 }
 
+#works_cited{
+  font-family: 'Oxanium';
+  font-weight: 600;
+  color:#1b1b1b;
+}
 
+.citedText {
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: left;
+}
 
+.citedText a {
+  color: #91000b;
+}
 
+.aboutText li {
+  margin-bottom: 1em;
+}
 /** buttons for about page tabs**/
 
 .btn .btn__text,
