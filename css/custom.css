@@ -255,7 +255,10 @@ h3 {
 .main-container {
   height: 100%;
 }
-
+.main-containerAlt {
+  height: 100%;
+  margin-top:-5%;
+}
 .main-container section {
   position: relative;
   top: 0;

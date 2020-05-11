@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8" />
 <title>COVID-19</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+   <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
   
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oxanium:wght@400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet">
 <!--
@@ -104,7 +104,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 <style id="style-ui-debug" type="text/css">#debug-bar{background-color:#222;border-left:1px solid #444;border-top:1px solid #444;bottom:0;margin:0;max-height:75%;padding:.5em;position:fixed;right:0;z-index:99900}#debug-bar>div:not([id])+div{margin-top:.5em}#debug-bar>div>label{margin-right:.5em}#debug-bar>div>input[type=text]{min-width:0;width:8em}#debug-bar>div>select{width:15em}#debug-bar-toggle{color:#eee;background-color:#222;border:1px solid #444;height:101%;height:calc(100% + 1px);left:-2em;left:calc(-2em - 1px);position:absolute;top:-1px;width:2em}#debug-bar-toggle:hover{background-color:#333;border-color:#eee}#debug-bar-hint{bottom:.175em;font-size:4.5em;opacity:.33;pointer-events:none;position:fixed;right:.6em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap}#debug-bar-watch{background-color:#222;border-left:1px solid #444;border-top:1px solid #444;bottom:102%;bottom:calc(100% + 1px);font-size:.9em;left:-1px;max-height:650%;max-height:65vh;position:absolute;overflow-x:hidden;overflow-y:scroll;right:0;z-index:99800}#debug-bar-watch[hidden]{display:none}#debug-bar-watch div{color:#999;font-style:italic;margin:1em auto;text-align:center}#debug-bar-watch table{width:100%}#debug-bar-watch tr:nth-child(2n){background-color:rgba(127,127,127,.15)}#debug-bar-watch td{padding:.2em 0}#debug-bar-watch td:first-child+td{padding:.2em .3em .2em .1em}#debug-bar-watch .watch-delete{background-color:transparent;border:none;color:#c00}#debug-bar-watch-all,#debug-bar-watch-none{margin-left:.5em}#debug-bar-views-toggle,#debug-bar-watch-toggle{color:#eee;background-color:transparent;border:1px solid #444;margin-right:1em;padding:.4em}#debug-bar-views-toggle:hover,#debug-bar-watch-toggle:hover{background-color:#333;border-color:#eee}#debug-bar-watch:not([hidden])~div #debug-bar-watch-toggle,html[data-debug-view] #debug-bar-views-toggle{background-color:#282;border-color:#4a4}#debug-bar-watch:not([hidden])~div #debug-bar-watch-toggle:hover,html[data-debug-view] #debug-bar-views-toggle:hover{background-color:#4a4;border-color:#6c6}#debug-bar-hint:after,#debug-bar-toggle:before,#debug-bar-views-toggle:after,#debug-bar-watch .watch-delete:before,#debug-bar-watch-add:before,#debug-bar-watch-all:before,#debug-bar-watch-none:before,#debug-bar-watch-toggle:after{font-family:tme-fa-icons;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;speak:none}#debug-bar-toggle:before{content:"\e838"}#debug-bar-hint:after{content:"\e838\202f\e822"}#debug-bar-watch .watch-delete:before{content:"\e804"}#debug-bar-watch-add:before{content:"\e805"}#debug-bar-watch-all:before{content:"\e83a"}#debug-bar-watch-none:before{content:"\e827"}#debug-bar-views-toggle:after,#debug-bar-watch-toggle:after{content:"\00a0\00a0\e830"}#debug-bar-watch:not([hidden])~div #debug-bar-watch-toggle:after,html[data-debug-view] #debug-bar-views-toggle:after{content:"\00a0\00a0\e831"}html[data-debug-view] .debug{padding:.25em;background-color:#234}html[data-debug-view] .debug[title]{cursor:help}html[data-debug-view] .debug.block{display:inline-block;vertical-align:middle}html[data-debug-view] .debug.invalid{text-decoration:line-through}html[data-debug-view] .debug.hidden,html[data-debug-view] .debug.hidden .debug{background-color:#555}html:not([data-debug-view]) .debug.hidden{display:none}html[data-debug-view] .debug[data-name][data-type].nonvoid:after,html[data-debug-view] .debug[data-name][data-type]:before{background-color:rgba(0,0,0,.25);font-family:monospace,monospace;white-space:pre}html[data-debug-view] .debug[data-name][data-type]:before{content:attr(data-name)}html[data-debug-view] .debug[data-name][data-type|=macro]:before{content:"<<" attr(data-name) ">>"}html[data-debug-view] .debug[data-name][data-type|=macro].nonvoid:after{content:"<</" attr(data-name) ">>"}html[data-debug-view] .debug[data-name][data-type|=html]:before{content:"<" attr(data-name) ">"}html[data-debug-view] .debug[data-name][data-type|=html].nonvoid:after{content:"</" attr(data-name) ">"}html[data-debug-view] .debug[data-name][data-type]:not(:empty):before{margin-right:.25em}html[data-debug-view] .debug[data-name][data-type].nonvoid:not(:empty):after{margin-left:.25em}html[data-debug-view] .debug[data-name][data-type|=special],html[data-debug-view] .debug[data-name][data-type|=special]:before{display:block}</style>
 </head>
 <body>
-			<div class="nav-container">
+				<div class="nav-container">
 			<nav>
 		        <div class="nav-bar bg--dark" data-fixed-at="700">
 		            <div class="nav-module menu-module left">
@@ -146,7 +146,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		        </div>
 		    </nav>
 		</div>
-		<div class="main-container">
+	<div class="main-containerAlt">
 	<div id="init-screen">
 		<div id="init-no-js"><noscript>JavaScript is required. Please enable it to continue.</noscript></div>
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
@@ -181,9 +181,11 @@ margin: auto 0;
 	 height:90vh; 
   width:80vw;
   min-width:300px;
-  padding:10%;
+  position:relative;
+  right:0;
+  margin-top:6%;
+  padding:5%;
 	object-fit:contain;
- overflow-y:scroll;
 	/* Removes the vertical line to the left of Sugarcane passages */
     border-style: solid;
   border-image-width: 20%;
@@ -195,13 +197,14 @@ margin: auto 0;
 .passage {
   
 	/* This only affects passages */
-	margin: 0;
+	margin: 4% 0;
 	/* Passage width */
-	width: 90%;
-  max-height: 60
-	vh;
-
-
+	width:100%;
+  height: 72vh;
+  float:right;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  
 	/* Text formatting */
 	font-style: normal;
 	font-variant: normal;
@@ -211,6 +214,13 @@ margin: auto 0;
 	line-height: 1.8em;
 	font-family: 'Oxanium', sans-serif;
 	background: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .passage {
+    width:94%;
+    margin: 4%;
+  }
 }
 
 .passage a {
@@ -257,15 +267,17 @@ color: #f4f5f6;
 }
 
 #ui-bar-history {
-
+	padding-top:5%;
   width: 100%;
   display:block;
+  position:fixed;
+  bottom: 10%;
   
 }
 #ui-bar-history img {
 	max-width:24px;
   display: inline-block;
-  padding: 0;
+  padding: 4%;
   text-align: center;
 }
 
@@ -274,22 +286,20 @@ color: #f4f5f6;
   background-color: #f4f5f6;
 }
 #ui-bar-history a:hover {
-   border: 5px groove #fff;
+   border: 5px groove #e3c742;
   background-color: #f4f5f6;
 }
 
 
 .backward {
  position: relative;
-  margin-left: -2em;
-  margin-top: -2em;
+
 float:left;
 }
 .forward {
    position: relative;
-   margin-top: -2em;
-    margin-right: -3em;
-float:right;
+margin-left:1em;
+float:left;
 }
 
 
@@ -332,14 +342,14 @@ width: 80%;
   border-bottom: 3px ridge #e3c742;
 }
 
-.deathtoll {
-  
-font-size: 1.5em;
-color: #0d0d11;
-background: #FFFFFF;
-  padding: 0.5em;
-text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+.alert {
+font-family: 'pixel_digivolveitalic'; 
+ color: #fff;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
 }
+
 
 .expo {
   color: #fff;
@@ -362,13 +372,26 @@ border-radius: 3px;
 
 .news {
  font-family: 'pixel_digivolveitalic'; 
-   border-bottom: 3px ridge #c24051;
+  color:#fff;
+  font-size: 1.4em;
+  letter-spacing:1px;
+   border-bottom: 3px ridge #e3c742;
 }
 
 .news img{
  max-width: 60%;
   margin: auto;
 }
+
+.deathtoll {
+  
+font-size: 1.5em;
+color: #0d0d11;
+background: #f4f5f6;
+  padding: 0.5em;
+text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
 /**Animatopy https://sarthology.github.io/Animatopy/ **/
 
 @-webkit-keyframes flash {
@@ -518,7 +541,7 @@ border-radius: 3px;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-iteration-count:3;
-    animation-delay: 1100ms;
+    animation-delay: 500ms;
 }
 
 .animated3 {
@@ -583,7 +606,7 @@ Tarot readings for the 247th Multiverse
 [[Confused how you ended up here. You should get some rest.-&gt;premise continue]]</tw-passagedata><tw-passagedata pid="4" name="Start Here" tags="" position="851,100" size="100,100">
 &lt;div class=&quot;importantDates animated slideInDown&quot;&gt;Welcome.&lt;/div&gt;
 
-This experience is a visual novel, &quot;choose your own adventure&quot;-style game that compiles testimonies of life in quarantine. 
+&lt;div class= &quot;expo&quot;&gt;This experience is a visual novel, &quot;choose your own adventure&quot;-style game that compiles testimonies of life in quarantine.&lt;/div&gt;
 
 [[ Click to Begin-&gt;Exposition]]
 
@@ -594,18 +617,17 @@ As you&#39;re about to log off, you see an interesting advertisement pop on.&lt;
 
 &lt;div class= &quot;animated2 flash seedy&quot;&gt;Coronavirus SUCKS. If you could change your fate, would you?&lt;/div&gt;
 
-[[Bored and willing to give this seedy ad a chance, you tap on the link.-&gt;Character Choice]]</tw-passagedata><tw-passagedata pid="6" name="Character Choice" tags="" position="669,580" size="100,100">The ad redirects to a pop-up.
+[[Bored and willing to give this seedy ad a chance, you tap on the link.-&gt;Character Choice]]</tw-passagedata><tw-passagedata pid="6" name="Character Choice" tags="" position="669,580" size="100,100">&lt;div class=&quot;alert&quot;&gt;The ad redirects to a pop-up.&lt;/div&gt;
 
 &lt;div class=&quot;seedy&quot;&gt;Choose your fighter!&quot;&lt;/div&gt; 
 &lt;div class=&quot;questions&quot;&gt;You choose&lt;/div&gt;
 &lt;table class= &quot;imgLinks&quot;&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a data-passage=&quot;Nurse Jan 1&quot;&gt;&lt;img src=&quot;D://covid/images/Nurse1.png&quot;  alt=&quot;nurse&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a data-passage=&quot;Old Jan 1&quot;&gt;&lt;img src=&quot;D://covid/images/senior1.png&quot; alt=&quot;senior&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;td&gt;&lt;a data-passage=&quot;Old Jan 1&quot;&gt;&lt;img src=&quot;D://covid/images/Senior1.png&quot; alt=&quot;senior&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a data-passage=&quot;Student Jan 1&quot;&gt;&lt;img src=&quot;D://covid/images/Student1.png&quot; alt=&quot;Student Jan 1&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a data-passage=&quot;Postman Jan 1&quot;&gt;&lt;img src=&quot;D://covid/images/Mailwoman1.png&quot; alt=&quot;Postman Jan 1&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</tw-passagedata><tw-passagedata pid="7" name="Nurse Jan 1" tags="" position="400,800" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt; January 23, 2020&lt;/div&gt;
-
-&lt;div class=&quot;animated2 shake&quot;&gt; BZZZ BZZZ BZZZZZ!&lt;/div&gt;
+&lt;div class=&quot;animated2 shake alert&quot;&gt; BZZZ BZZZ BZZZZZ!&lt;/div&gt;
 &lt;div class= &quot;expo&quot;&gt;Your phone alarm buzzes with notifications. 
 
 You have a few texts and a News notification, talking about how Wuhan, China has been closed off due to Coronavirus. &lt;/div&gt;
@@ -613,7 +635,6 @@ You have a few texts and a News notification, talking about how Wuhan, China has
 [[You&#39;ve been transported back to the past!-&gt;Nurse Jan 2]]</tw-passagedata><tw-passagedata pid="8" name="Nurse Jan 2" tags="" position="400,925" size="100,100">&lt;div class= &quot;expo&quot;&gt;A quick check of the ID on your lanyard says you are a 35 year old nurse living in LA. You work full time shifts at the nearby hospital 4 times a week. You live alone and your family is all out-of-state.
 
 You know how bad this is going to get… but will it be enough to keep you inside?&lt;/div&gt;
-
 &lt;div class=&quot;questions&quot;&gt;Do you:&lt;/div&gt;
 
 [[Go out with my friends!! Enjoy the Californian sunshine while I can.-&gt;NJ2A]] 
@@ -631,13 +652,13 @@ You know how bad this is going to get… but will it be enough to keep you insid
 &lt;div class=&quot;news&quot;&gt;W.H.O. declared a global health emergency, Trump administration restricted travel from China.&lt;/div&gt;
 
 &lt;div class= &quot;expo&quot;&gt;Okay. So maybe two Netflix series. Getting that cabin fever. Was it too early to do that?&lt;/div&gt;
-[[Continue.-&gt;Nurse Feb 1]]</tw-passagedata><tw-passagedata pid="11" name="NJ2C" tags="" position="550,1050" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;Jan 31, 2020:&lt;/div&gt;
+[[Continue-&gt;Nurse Feb 1]]</tw-passagedata><tw-passagedata pid="11" name="NJ2C" tags="" position="550,1050" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;Jan 31, 2020:&lt;/div&gt;
 &lt;div class=&quot;news deathtoll animated3 pulse&quot;&gt;213 confirmed deaths globally&lt;/div&gt;
 &lt;div class=&quot;news&quot;&gt;W.H.O. declared a global health emergency, Trump administration restricted travel from China.&lt;/div&gt;
 
 &lt;div class= &quot;anecdotes&quot;&gt;I only had one drink last night. Alright. Maybe two. Three, four, ooh, that person was cute  -- accidentally went to that stupid rave after all.&lt;/div&gt;
 
-[[Continue.-&gt;Nurse Feb 1]]</tw-passagedata><tw-passagedata pid="12" name="Nurse Feb 1" tags="" position="357,1171" size="100,100">&lt;div class=&quot;importantDates&quot;&gt;Feb 7:&lt;/div&gt;
+[[Continue-&gt;Nurse Feb 1]]</tw-passagedata><tw-passagedata pid="12" name="Nurse Feb 1" tags="" position="357,1171" size="100,100">&lt;div class=&quot;importantDates&quot;&gt;Feb 7:&lt;/div&gt;
 &lt;div class=&quot;expo&quot;&gt;You hear that a Chinese doctor who tried to raise the alarm died.&lt;/div&gt;
 &lt;div class=&quot;importantDates&quot;&gt;Feb 13:&lt;/div&gt; 
 &lt;div class=&quot;expo&quot;&gt;You hear that there are more than 14,000 new cases in Hubei Province. &lt;/div&gt;
@@ -680,7 +701,7 @@ USA issues do-not-travel warning to Italy and South Korea, and lifts federal res
 
 [[Continue-&gt;Nurse boom corona]]</tw-passagedata><tw-passagedata pid="20" name="Nurse boom corona" tags="" position="400,1800" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;March 11, 2020:&lt;/div&gt;
 &lt;div class=&quot;news&quot;&gt;&lt;img src=&quot;D://covid/images/pandemic.jpg&quot; alt=&quot;news&quot;/&gt;
-The W.H.O declares the novel coronavirus outbreak to be a pandemic
+The W.H.O declares the novel coronavirus outbreak to be a &lt;div class=&quot;importantDates shake-opacity shake-constant shake-constant--hover&quot;&gt;pandemic&lt;/div&gt;
 President Trump declares a national emergency.&lt;/div&gt;
 
 &lt;div class=&quot;importantDates&quot;&gt;March 15, 2020:&lt;/div&gt; 
@@ -762,7 +783,7 @@ You can explore this pandemic through another character, or explore the interact
 
 
 [[Visit the Map| http://map-courses.usc.edu/iml477/map.html]]</tw-passagedata><tw-passagedata pid="35" name="Old Jan 1" tags="" position="1300,800" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt; January 23, 2020&lt;/div&gt;
-&lt;div class=&quot;animated2 shake&quot;&gt; BZZZ BZZZ BZZZZZ!&lt;/div&gt;
+&lt;div class=&quot;animated2 shake alert&quot;&gt; BZZZ BZZZ BZZZZZ!&lt;/div&gt;
 &lt;div class= &quot;expo&quot;&gt;Your phone alarm buzzes with notifications.
 
 You&#39;ve been transported back to the past!
@@ -772,7 +793,7 @@ You live in a small house with your partner of 35 years who is not in good healt
 
 [[Continue-&gt;Old Feb 1]]</tw-passagedata><tw-passagedata pid="36" name="Postman Jan 1" tags="" position="1750,800" size="100,100">&lt;div class= &quot;questions&quot;&gt;Sorry! This path is currently locked. Please return and play another character!&lt;/div&gt;</tw-passagedata><tw-passagedata pid="37" name="Student Jan 1" tags="" position="850,800" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt; January 23, 2020&lt;/div&gt;
 
-&lt;div class=&quot;animated2 shake&quot;&gt; BZZZ BZZZ BZZZZZ!&lt;/div&gt;
+&lt;div class=&quot;animated2 shake alert&quot;&gt; BZZZ BZZZ BZZZZZ!&lt;/div&gt;
 &lt;div class= &quot;expo&quot;&gt;Your phone alarm buzzes with notifications.
 
 You&#39;ve been transported back to the past!
@@ -781,7 +802,8 @@ You are a middle class second year college student who lives on campus in studen
 
 One day, you hear that someone in a nearby dorm has something called the coronavirus. Like the beer?&lt;/div&gt;
 
-[[Continue-&gt;Student Jan 2]]</tw-passagedata><tw-passagedata pid="38" name="Student Jan 2" tags="" position="850,925" size="100,100">&lt;div class= &quot;expo&quot;&gt;It turns out, it’s a false rumor.  The hysteria dies down, and you continue on as usual, but some students start to be more cautious of germs.&lt;/div&gt;
+[[Continue-&gt;Student Jan 2]]</tw-passagedata><tw-passagedata pid="38" name="Student Jan 2" tags="" position="850,925" size="100,100">
+&lt;div class= &quot;expo&quot;&gt;It turns out, it’s a false rumor.  The hysteria dies down, and you continue on as usual, but some students start to be more cautious of germs.&lt;/div&gt;
 
 &lt;div class=&quot;questions&quot;&gt;Do you:&lt;/div&gt;
 [[Start wearing a mask when walking around campus-&gt;SJ2A]]
@@ -792,7 +814,7 @@ One day, you hear that someone in a nearby dorm has something called the coronav
 &lt;div class=&quot;news deathtoll animated3 pulse&quot;&gt;213 confirmed deaths globally&lt;/div&gt;
 &lt;div class=&quot;news&quot;&gt;W.H.O. declared a global health emergency, Trump administration restricted travel from China.&lt;/div&gt;
 
-&lt;div class= &quot;anecdotes&quot;&gt;People look at me funny, and ask me if I’m sick. Is this really necessary? Or am I just overreacting?&lt;div&gt;
+&lt;div class= &quot;anecdotes&quot;&gt;People look at me funny, and ask me if I’m sick. Is this really necessary? Or am I just overreacting?&lt;/div&gt;
 
 [[Continue.-&gt;Student Feb 1]]</tw-passagedata><tw-passagedata pid="40" name="SJ2B" tags="" position="850,1050" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;Jan 31, 2020:&lt;/div&gt;
 &lt;div class=&quot;news deathtoll animated3 pulse&quot;&gt;213 confirmed deaths globally&lt;/div&gt;
@@ -806,7 +828,7 @@ One day, you hear that someone in a nearby dorm has something called the coronav
 
 &lt;div class= &quot;anecdotes&quot;&gt;I scoff at the fear-mongering media. This coronavirus beer thing is a fad. I have better things to spend my time on.&lt;/div&gt;
 
-[[Continue.-&gt;Student Feb 1]]</tw-passagedata><tw-passagedata pid="42" name="Student Feb 1" tags="" position="850,1200" size="100,100">&lt;div class=&quot;importantDates&quot;&gt;Feb 7:&lt;/div&gt;
+[[Continue-&gt;Student Feb 1]]</tw-passagedata><tw-passagedata pid="42" name="Student Feb 1" tags="" position="850,1200" size="100,100">&lt;div class=&quot;importantDates&quot;&gt;Feb 7:&lt;/div&gt;
 &lt;div class=&quot;expo&quot;&gt;You hear that a Chinese doctor who tried to raise the alarm died. &lt;/div&gt;
 &lt;div class=&quot;news deathtoll animated3 pulse&quot;&gt;638 confirmed deaths globally&lt;/div&gt;
 &lt;div class= &quot;expo&quot;&gt;You wonder if you should adjust your behavior.&lt;/div&gt;
@@ -835,7 +857,7 @@ One day, you hear that someone in a nearby dorm has something called the coronav
 &lt;div class=&quot;anecdotes&quot;&gt;I grab a bowl of frosted flakes, and go out for an awesome run. I’m feeling GRRREAT!&lt;/div&gt;
 [[Continue-&gt;Student March 1]]</tw-passagedata><tw-passagedata pid="46" name="Student March 1" tags="" position="850,1500" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;March 11, 2020:&lt;/div&gt;
 &lt;div class=&quot;news&quot;&gt;&lt;img src=&quot;D://covid/images/pandemic.jpg&quot; alt=&quot;news&quot;/&gt;
-The W.H.O declares the novel coronavirus outbreak to be a pandemic
+The W.H.O declares the novel coronavirus outbreak to be a &lt;div class=&quot;importantDates shake-opacity shake-constant shake-constant--hover&quot;&gt;pandemic&lt;/div&gt;
 President Trump declares a national emergency.&lt;/div&gt;
 
 &lt;div class= &quot;anecdotes&quot;&gt;Ok, shit is getting real. The school announced online classes, and students have begun to self-isolate. On campus activities, including your job, have been suspended. Luckily, the university is not kicking me out of housing yet, and atleast I&#39;m being paid a portion of my salary.
@@ -843,7 +865,7 @@ President Trump declares a national emergency.&lt;/div&gt;
 &lt;div class=&quot;questions&quot;&gt;Do you:&lt;/div&gt;
 [[Stay in campus housing-&gt;SM1A]]
 
-[[Move home-&gt;SM1B]]</tw-passagedata><tw-passagedata pid="47" name="SM1A" tags="" position="775,1650" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;March 11, 2020:&lt;/div&gt;&lt;div class=&quot;news deathtoll animated3 pulse&quot;&gt;4292 confirmed deaths globally&lt;/div&gt;
+[[Move home-&gt;SM1B]]</tw-passagedata><tw-passagedata pid="47" name="SM1A" tags="" position="775,1650" size="100,100">&lt;div class=&quot;news deathtoll animated3 pulse&quot;&gt;4292 confirmed deaths globally&lt;/div&gt;
 
 &lt;div class= &quot;anecdotes&quot;&gt;It’s easy to keep up with online classes since I’m in the same time zone as when lecture begins.  However, it’s a little risky being in a building with so many people, and eating in a dining hall.&lt;/div&gt;
 
@@ -928,7 +950,7 @@ A vaccine hasn’t been developed yet, but you reflect on the whole situation an
 
 [[Continue to End Screen-&gt;End]]</tw-passagedata><tw-passagedata pid="69" name="Old Feb 1" tags="" position="1300,925" size="100,100">&lt;div class=&quot;importantDates animated slideInDown&quot;&gt;Late February&lt;/div&gt;
 
-Your daughter calls you one afternoon and asks if you’re aware of the growing cases of COVID-19 in the US. You’ve been watching the news, but she tells you that she’s concerned and that you and your partner should try to stay home—she will drop by in a few days to bring you some essentials so that you don’t have to leave the house.Your daughter is very up on the latest and quite trustworthy, so you believe what she tells you. But, you also think that you’ll probably be okay, because most of the people you come into contact with are family or friends and they seem healthy.
+&lt;div class= &quot;expo&quot;&gt;Your daughter calls you one afternoon and asks if you’re aware of the growing cases of COVID-19 in the US. You’ve been watching the news, but she tells you that she’s concerned and that you and your partner should try to stay home—she will drop by in a few days to bring you some essentials so that you don’t have to leave the house.Your daughter is very up on the latest and quite trustworthy, so you believe what she tells you. But, you also think that you’ll probably be okay, because most of the people you come into contact with are family or friends and they seem healthy.&lt;/div&gt;
 
 &lt;div class=&quot;questions&quot;&gt;You:&lt;/div&gt;
 
@@ -1038,9 +1060,7 @@ You wish your partner could have made it to see these better days, but you did l
 [[Continue production of most necessary vaccines and use all remaining resources to go towards a COVID-19 vaccine.-&gt;NA2B]]
 
 [[Cut a deal with China to have them produce excess vaccines for US citizens only. In return, we will vastly lower tariffs on Chinese goods.-&gt;NA2C]]</tw-passagedata></tw-storydata>
-
 </div>
-
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
 	if(document.documentElement.getAttribute("data-init")==="loading"){!function(window,document,jQuery,undefined){"use strict";function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,r=Array(e.length);t<e.length;t++)r[t]=e[t];return r}return Array.from(e)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_slicedToArray=function(){function e(e,t){var r=[],n=!0,a=!1,i=undefined;try{for(var o,s=e[Symbol.iterator]();!(n=(o=s.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(e){a=!0,i=e}finally{try{!n&&s.return&&s.return()}finally{if(a)throw i}}return r}return function(t,r){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,r);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},errorPrologRegExp=/^(?:(?:uncaught\s+(?:exception:\s+)?)?\w*(?:error|exception|_err):\s+)+/i,Alert=function(){function e(e,t,r,n){var a="fatal"===e,i="Apologies! "+(a?"A fatal":"An")+" error has occurred.";i+=a?" Aborting.":" You may be able to continue, but some parts may not work properly.",null==t&&null==r||(i+="\n\nError",null!=t&&(i+=" ["+t+"]"),i+=null!=r?": "+r.replace(errorPrologRegExp,"")+".":": unknown error."),"object"===(void 0===n?"undefined":_typeof(n))&&null!==n&&n.stack&&(i+="\n\nStack Trace:\n"+n.stack),window.alert(i)}function t(t,r,n){e(null,t,r,n)}function r(t,r,n){e("fatal",t,r,n)}return function(e){window.onerror=function(n,a,i,o,s){"complete"===document.readyState?t(null,n,s):(r(null,n,s),window.onerror=e,"function"==typeof window.onerror&&window.onerror.apply(this,arguments))}}(window.onerror),Object.freeze(Object.defineProperties({},{error:{value:t},fatal:{value:r}}))}(),Patterns=function(){var e=function(){var e=new Map([[" ","\\u0020"],["\f","\\f"],["\n","\\n"],["\r","\\r"],["\t","\\t"],["\v","\\v"],[" ","\\u00a0"],[" ","\\u1680"],["᠎","\\u180e"],[" ","\\u2000"],[" ","\\u2001"],[" ","\\u2002"],[" ","\\u2003"],[" ","\\u2004"],[" ","\\u2005"],[" ","\\u2006"],[" ","\\u2007"],[" ","\\u2008"],[" ","\\u2009"],[" ","\\u200a"],["\u2028","\\u2028"],["\u2029","\\u2029"],[" ","\\u202f"],[" ","\\u205f"],["　","\\u3000"],["\ufeff","\\ufeff"]]),t=/^\s$/,r="";return e.forEach(function(e,n){t.test(n)||(r+=e)}),r?"[\\s"+r+"]":"\\s"}(),t="[\\u0020\\f\\t\\v\\u00a0\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000\\ufeff]",r="\\s"===e?"\\S":e.replace(/^\[/,"[^"),n="[0-9A-Z_a-z\\-\\u00c0-\\u00d6\\u00d8-\\u00f6\\u00f8-\\u00ff\\u0150\\u0170\\u0151\\u0171]",a=n.replace("\\-",""),i=function(){return"("+n+"+)\\(([^\\)\\|\\n]+)\\):|"+t+"*("+n+"+)"+t+"*:([^;\\|\\n]+);|"+t+"*((?:[#.]"+n+"+"+t+"*)+);"}();return Object.freeze({space:e,spaceNoTerminator:t,lineTerminator:"[\\n\\r\\u2028\\u2029]",notSpace:r,anyChar:"(?:.|[\\n\\r\\u2028\\u2029])",anyLetter:n,anyLetterStrict:a,identifierFirstChar:"[$A-Z_a-z]",identifierNextChar:"[$0-9A-Z_a-z]",identifier:"[$A-Z_a-z][$0-9A-Z_a-z]*",variableSigil:"[$_]",variable:"[$_][$A-Z_a-z][$0-9A-Z_a-z]*",macroName:"[A-Za-z][\\w-]*|[=-]",templateName:"[A-Za-z][\\w-]*",cssIdOrClassSigil:"[#.]",cssImage:"\\[[<>]?[Ii][Mm][Gg]\\[(?:\\s|\\S)*?\\]\\]+",inlineCss:i,url:"(?:file|https?|mailto|ftp|javascript|irc|news|data):[^\\s'\"]+"})}();!function(){function e(e,t){var r=Number.parseInt(e,10)||0;if(r<1)return"";var n=void 0===t?"":String(t);for(""===n&&(n=" ");n.length<r;){var a=n.length,i=r-a;n+=a>i?n.slice(0,i):n}return n.length>r&&(n=n.slice(0,r)),n}var t=function(){function e(e,n){var a=String(e);if(!a)return a;switch(n){case"start":return t.test(a)?a.replace(t,""):a;case"end":return r.test(a)?a.replace(r,""):a;default:throw new Error('_trimString called with incorrect where parameter value: "'+n+'"')}}var t=new RegExp("^"+Patterns.space+Patterns.space+"*"),r=new RegExp(""+Patterns.space+Patterns.space+"*$");return e}();Array.prototype.flat||Object.defineProperty(Array.prototype,"flat",{configurable:!0,writable:!0,value:function(){function e(){if(null==this)throw new TypeError("Array.prototype.flat called on null or undefined");var t=0===arguments.length?1:Number(arguments[0])||0;return t<1?Array.prototype.slice.call(this):Array.prototype.reduce.call(this,function(r,n){return n instanceof Array?r.push.apply(r,_toConsumableArray(e.call(n,t-1))):r.push(n),r},[])}return e}()}),Array.prototype.flatMap||Object.defineProperty(Array.prototype,"flatMap",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatMap called on null or undefined");return Array.prototype.map.apply(this,arguments).flat()}}),Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includes called on null or undefined");if(0===arguments.length)return!1;var e=this.length>>>0;if(0===e)return!1;var t=arguments[0],r=Number(arguments[1])||0;for(r<0&&(r=Math.max(0,e+r));r<e;++r){var n=this[r];if(n===t||n!==n&&t!==t)return!0}return!1}}),Object.entries||Object.defineProperty(Object,"entries",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.entries object parameter must be an object");return Object.keys(e).map(function(t){return[t,e[t]]})}}),Object.fromEntries||Object.defineProperty(Object,"fromEntries",{configurable:!0,writable:!0,value:function(e){return Array.from(e).reduce(function(e,t){if(Object(t)!==t)throw new TypeError("Object.fromEntries iterable parameter must yield objects");return t[0]in e?Object.defineProperty(e,t[0],{configurable:!0,enumerable:!0,writable:!0,value:t[1]}):e[t[0]]=t[1],e},{})}}),Object.getOwnPropertyDescriptors||Object.defineProperty(Object,"getOwnPropertyDescriptors",{configurable:!0,writable:!0,value:function(e){if(null==e)throw new TypeError("Object.getOwnPropertyDescriptors object parameter is null or undefined");var t=Object(e);return Reflect.ownKeys(t).reduce(function(e,r){var n=Object.getOwnPropertyDescriptor(t,r);return void 0!==n&&(r in e?Object.defineProperty(e,r,{configurable:!0,enumerable:!0,writable:!0,value:n}):e[r]=n),e},{})}}),Object.values||Object.defineProperty(Object,"values",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.values object parameter must be an object");return Object.keys(e).map(function(t){return e[t]})}}),String.prototype.padStart||Object.defineProperty(String.prototype,"padStart",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padStart called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:e(i-a,r)+n}}),String.prototype.padEnd||Object.defineProperty(String.prototype,"padEnd",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padEnd called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:n+e(i-a,r)}}),String.prototype.trimStart||Object.defineProperty(String.prototype,"trimStart",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimStart called on null or undefined");return t(this,"start")}}),String.prototype.trimLeft||Object.defineProperty(String.prototype,"trimLeft",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimLeft called on null or undefined");return t(this,"start")}}),String.prototype.trimEnd||Object.defineProperty(String.prototype,"trimEnd",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimEnd called on null or undefined");return t(this,"end")}}),String.prototype.trimRight||Object.defineProperty(String.prototype,"trimRight",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimRight called on null or undefined");return t(this,"end")}})}(),function(){function _random(){var e=void 0,t=void 0;switch(arguments.length){case 0:throw new Error("_random called with insufficient parameters");case 1:e=0,t=arguments[0];break;default:e=arguments[0],t=arguments[1]}if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.floor(_nativeMathRandom()*(t-e+1))+e}function _randomIndex(e,t){var r=void 0,n=void 0;switch(t.length){case 1:r=0,n=e-1;break;case 2:r=0,n=Math.trunc(t[1]);break;default:r=Math.trunc(t[1]),n=Math.trunc(t[2])}return Number.isNaN(r)?r=0:!Number.isFinite(r)||r>=e?r=e-1:r<0&&(r=e+r)<0&&(r=0),Number.isNaN(n)?n=0:!Number.isFinite(n)||n>=e?n=e-1:n<0&&(n=e+n)<0&&(n=e-1),_random(r,n)}function _getCodePointStartAndEnd(e,t){var r=e.charCodeAt(t);if(Number.isNaN(r))return{char:"",start:-1,end:-1};if(r<55296||r>57343)return{char:e.charAt(t),start:t,end:t};if(r>=55296&&r<=56319){var n=t+1;if(n>=e.length)throw new Error("high surrogate without trailing low surrogate");var a=e.charCodeAt(n);if(a<56320||a>57343)throw new Error("high surrogate without trailing low surrogate");return{char:e.charAt(t)+e.charAt(n),start:t,end:n}}if(0===t)throw new Error("low surrogate without leading high surrogate");var i=t-1,o=e.charCodeAt(i);if(o<55296||o>56319)throw new Error("low surrogate without leading high surrogate");return{char:e.charAt(i)+e.charAt(t),start:i,end:t}}var _nativeMathRandom=Math.random;Object.defineProperty(Array,"random",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e||!Object.prototype.hasOwnProperty.call(e,"length"))throw new TypeError("Array.random array parameter must be an array or array-lke object");var t=e.length>>>0;if(0!==t){return e[0===arguments.length?_random(0,t-1):_randomIndex(t,Array.prototype.slice.call(arguments,1))]}}}),Object.defineProperty(Array.prototype,"concatUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.concatUnique called on null or undefined");var e=Array.from(this);if(0===arguments.length)return e;var t=Array.prototype.reduce.call(arguments,function(e,t){return e.concat(t)},[]),r=t.length;if(0===r)return e;for(var n=Array.prototype.indexOf,a=Array.prototype.push,i=0;i<r;++i){var o=t[i];-1===n.call(e,o)&&a.call(e,o)}return e}}),Object.defineProperty(Array.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.count called on null or undefined");for(var e=Array.prototype.indexOf,t=arguments[0],r=Number(arguments[1])||0,n=0;-1!==(r=e.call(this,t,r));)++n,++r;return n}}),Object.defineProperty(Array.prototype,"delete",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.delete called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.concat.apply([],arguments),r=t.length,n=[],a=0;a<e;++a)for(var i=this[a],o=0;o<r;++o){var s=t[o];if(i===s||i!==i&&s!==s){n.push(a);break}}for(var u=[],l=0,c=n.length;l<c;++l)u[l]=this[n[l]];for(var d=Array.prototype.splice,f=n.length-1;f>=0;--f)d.call(this,n[f],1);return u}}),Object.defineProperty(Array.prototype,"deleteAt",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.deleteAt called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.splice,r=[].concat(_toConsumableArray(new Set(Array.prototype.concat.apply([],arguments).map(function(t){return t<0?Math.max(0,e+t):t})).values())),n=[].concat(_toConsumableArray(r)).sort(function(e,t){return t-e}),a=[],i=0,o=r.length;i<o;++i)a[i]=this[r[i]];for(var s=0,u=n.length;s<u;++s)t.call(this,n[s],1);return a}}),Object.defineProperty(Array.prototype,"deleteWith",{configurable:!0,writable:!0,value:function(e,t){if(null==this)throw new TypeError("Array.prototype.deleteWith called on null or undefined");if("function"!=typeof e)throw new Error("Array.prototype.deleteWith predicate parameter must be a function");var r=this.length>>>0;if(0===r)return[];for(var n=Array.prototype.splice,a=[],i=[],o=0;o<r;++o)e.call(t,this[o],o,this)&&(i.push(this[o]),a.push(o));for(var s=a.length-1;s>=0;--s)n.call(this,a[s],1);return i}}),Object.defineProperty(Array.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.first called on null or undefined");if(0!=this.length>>>0)return this[0]}}),Object.defineProperty(Array.prototype,"includesAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAll called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAll.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(!Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!1;return!0}}),Object.defineProperty(Array.prototype,"includesAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAny called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAny.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!0;return!1}}),Object.defineProperty(Array.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.last called on null or undefined");var e=this.length>>>0;if(0!==e)return this[e-1]}}),Object.defineProperty(Array.prototype,"pluck",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pluck called on null or undefined");var e=this.length>>>0;if(0!==e){var t=0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)));return Array.prototype.splice.call(this,t,1)[0]}}}),Object.defineProperty(Array.prototype,"pluckMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.pluckMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.pluckMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=Array.prototype.splice,a=[],i=t-1;do{a.push(n.call(this,_random(0,i--),1)[0])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"pushUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pushUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.push,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Array.prototype,"random",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.random called on null or undefined");var e=this.length>>>0;if(0!==e){return this[0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)))]}}}),Object.defineProperty(Array.prototype,"randomMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.randomMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.randomMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=new Map,a=[],i=t-1;do{var o=void 0;do{o=_random(0,i)}while(n.has(o));n.set(o,!0),a.push(this[o])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"shuffle",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.shuffle called on null or undefined");var e=this.length>>>0;if(0===e)return this;for(var t=e-1;t>0;--t){var r=Math.floor(_nativeMathRandom()*(t+1));if(t!==r){var n=this[t];this[t]=this[r],this[r]=n}}return this}}),Object.defineProperty(Array.prototype,"unshiftUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.unshiftUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.unshift,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Function.prototype,"partial",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Function.prototype.partial called on null or undefined");var e=Array.prototype.slice,t=this,r=e.call(arguments,0);return function(){for(var n=[],a=0,i=0;i<r.length;++i)n.push(r[i]===undefined?arguments[a++]:r[i]);return t.apply(this,n.concat(e.call(arguments,a)))}}}),Object.defineProperty(Math,"clamp",{configurable:!0,writable:!0,value:function(e,t,r){var n=Number(e);return Number.isNaN(n)?NaN:n.clamp(t,r)}}),Object.defineProperty(Math,"easeInOut",{configurable:!0,writable:!0,value:function(e){return 1-(Math.cos(Number(e)*Math.PI)+1)/2}}),Object.defineProperty(Number.prototype,"clamp",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Number.prototype.clamp called on null or undefined");if(2!==arguments.length)throw new Error("Number.prototype.clamp called with an incorrect number of parameters");var e=Number(arguments[0]),t=Number(arguments[1]);if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.min(Math.max(this,e),t)}}),RegExp.escape||function(){var e=/[\\^$*+?.()|[\]{}]/g,t=new RegExp(e.source);Object.defineProperty(RegExp,"escape",{configurable:!0,writable:!0,value:function(r){var n=String(r);return n&&t.test(n)?n.replace(e,"\\$&"):n}})}(),function(){var e=/{(\d+)(?:,([+-]?\d+))?}/g,t=new RegExp(e.source);Object.defineProperty(String,"format",{configurable:!0,writable:!0,value:function(r){function n(e,t,r){if(!t)return e;var n=Math.abs(t)-e.length;if(n<1)return e;var a=String(r).repeat(n);return t<0?e+a:a+e}if(arguments.length<2)return 0===arguments.length?"":r;var a=2===arguments.length&&Array.isArray(arguments[1])?[].concat(_toConsumableArray(arguments[1])):Array.prototype.slice.call(arguments,1);return 0===a.length?r:t.test(r)?(e.lastIndex=0,r.replace(e,function(e,t,r){var i=a[t];if(null==i)return"";for(;"function"==typeof i;)i=i();switch(void 0===i?"undefined":_typeof(i)){case"string":break;case"object":i=JSON.stringify(i);break;default:i=String(i)}return n(i,r?Number.parseInt(r,10):0," ")})):r}})}(),Object.defineProperty(String.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.contains called on null or undefined");return-1!==String.prototype.indexOf.apply(this,arguments)}}),Object.defineProperty(String.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.count called on null or undefined");var e=String(arguments[0]||"");if(""===e)return 0;for(var t=String.prototype.indexOf,r=e.length,n=Number(arguments[1])||0,a=0;-1!==(n=t.call(this,e,n));)++a,n+=r;return a}}),Object.defineProperty(String.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.first called on null or undefined");return _getCodePointStartAndEnd(String(this),0).char}}),Object.defineProperty(String.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.last called on null or undefined");var e=String(this);return _getCodePointStartAndEnd(e,e.length-1).char}}),Object.defineProperty(String.prototype,"splice",{configurable:!0,writable:!0,value:function(e,t,r){if(null==this)throw new TypeError("String.prototype.splice called on null or undefined");var n=this.length>>>0;if(0===n)return"";var a=Number(e);Number.isSafeInteger(a)?a<0&&(a+=n)<0&&(a=0):a=0,a>n&&(a=n);var i=Number(t);(!Number.isSafeInteger(i)||i<0)&&(i=0);var o=this.slice(0,a);return void 0!==r&&(o+=r),a+i<n&&(o+=this.slice(a+i)),o}}),Object.defineProperty(String.prototype,"splitOrEmpty",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.splitOrEmpty called on null or undefined");return""===String(this)?[]:String.prototype.split.apply(this,arguments)}}),Object.defineProperty(String.prototype,"toLocaleUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toLocaleUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toLocaleUpperCase()+e.slice(n+1)}}),Object.defineProperty(String.prototype,"toUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toUpperCase()+e.slice(n+1)}}),Object.defineProperty(Date.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:date)",this.toISOString()]}}),Object.defineProperty(Function.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)","("+this.toString()+")"]}}),Object.defineProperty(Map.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:map)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(RegExp.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)",this.toString()]}}),Object.defineProperty(Set.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:set)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(JSON,"reviveWrapper",{configurable:!0,writable:!0,value:function(e,t){if("string"!=typeof e)throw new TypeError("JSON.reviveWrapper code parameter must be a string");return["(revive:eval)",[e,t]]}}),Object.defineProperty(JSON,"_real_parse",{value:JSON.parse}),Object.defineProperty(JSON,"parse",{configurable:!0,writable:!0,value:function value(text,reviver){return JSON._real_parse(text,function(key,val){var value=val;if(Array.isArray(value)&&2===value.length)switch(value[0]){case"(revive:set)":value=new Set(value[1]);break;case"(revive:map)":value=new Map(value[1]);break;case"(revive:date)":value=new Date(value[1]);break;case"(revive:eval)":try{if(Array.isArray(value[1])){var $ReviveData$=value[1][1];value=eval(value[1][0])}else value=eval(value[1])}catch(e){}}else if("string"==typeof value&&"@@revive@@"===value.slice(0,10))try{value=eval(value.slice(10))}catch(e){}if("function"==typeof reviver)try{value=reviver(key,value)}catch(e){}return value})}}),Object.defineProperty(Array.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.contains called on null or undefined");return Array.prototype.includes.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAll called on null or undefined");return Array.prototype.includesAll.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAny called on null or undefined");return Array.prototype.includesAny.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"flatten",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatten called on null or undefined");return Array.prototype.flat.call(this,1/0)}}),Object.defineProperty(String.prototype,"readBracketedList",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.readBracketedList called on null or undefined");for(var e=new RegExp("(?:\\[\\[((?:\\s|\\S)*?)\\]\\])|([^\"'\\s]\\S*)","gm"),t=[],r=void 0;null!==(r=e.exec(this));)r[1]?t.push(r[1]):r[2]&&t.push(r[2]);return t}})}();var Browser=function(){var e=navigator.userAgent.toLowerCase(),t=e.includes("windows phone"),r=Object.freeze({Android:!t&&e.includes("android"),BlackBerry:/blackberry|bb10/.test(e),iOS:!t&&/ip(?:hone|ad|od)/.test(e),Opera:!t&&("object"===_typeof(window.operamini)||e.includes("opera mini")),Windows:t||/iemobile|wpdesktop/.test(e),any:function(){return r.Android||r.BlackBerry||r.iOS||r.Opera||r.Windows}}),n=!r.Windows&&!/khtml|trident|edge/.test(e)&&e.includes("gecko"),a=!e.includes("opera")&&/msie|trident/.test(e),i=a?function(){var t=/(?:msie\s+|rv:)(\d+\.\d)/.exec(e);return t?Number(t[1]):0}():null,o=e.includes("opera")||e.includes(" opr/"),s=o?function(){var t=new RegExp((/khtml|chrome/.test(e)?"opr":"version")+"\\/(\\d+\\.\\d+)"),r=t.exec(e);return r?Number(r[1]):0}():null,u=e.includes("vivaldi");return Object.freeze({userAgent:e,isMobile:r,isGecko:n,isIE:a,ieVersion:i,isOpera:o,operaVersion:s,isVivaldi:u})}(),Has=function(){var e=function(){try{return"function"==typeof document.createElement("audio").canPlayType}catch(e){}return!1}(),t=function(){try{return"Blob"in window&&"File"in window&&"FileList"in window&&"FileReader"in window&&!Browser.isMobile.any()&&(!Browser.isOpera||Browser.operaVersion>=15)}catch(e){}return!1}(),r=function(){try{return"geolocation"in navigator&&"function"==typeof navigator.geolocation.getCurrentPosition&&"function"==typeof navigator.geolocation.watchPosition}catch(e){}return!1}(),n=function(){try{return"MutationObserver"in window&&"function"==typeof window.MutationObserver}catch(e){}return!1}(),a=function(){try{return"performance"in window&&"function"==typeof window.performance.now}catch(e){}return!1}(),i=function(){try{return"ontouchstart"in window||!!window.DocumentTouch&&document instanceof window.DocumentTouch||!!navigator.maxTouchPoints||!!navigator.msMaxTouchPoints}catch(e){}return!1}(),o=function(){try{for(var e=new Map([["transition","transitionend"],["MSTransition","msTransitionEnd"],["WebkitTransition","webkitTransitionEnd"],["MozTransition","transitionend"]]),t=[].concat(_toConsumableArray(e.keys())),r=document.createElement("div"),n=0;n<t.length;++n)if(r.style[t[n]]!==undefined)return e.get(t[n])}catch(e){}return!1}();return Object.freeze({audio:e,fileAPI:t,geolocation:r,mutationObserver:n,performance:a,touch:i,transitionEndEvent:o})}(),Visibility=function(){function e(){return a}function t(){return a&&document[a.stateProperty]||"visible"}function r(){return Boolean(a)}function n(){return Boolean(a&&document[a.hiddenProperty])}var a=function(){try{return Object.freeze([{hiddenProperty:"hidden",stateProperty:"visibilityState",changeEvent:"visibilitychange"},{hiddenProperty:"webkitHidden",stateProperty:"webkitVisibilityState",changeEvent:"webkitvisibilitychange"},{hiddenProperty:"mozHidden",stateProperty:"mozVisibilityState",changeEvent:"mozvisibilitychange"},{hiddenProperty:"msHidden",stateProperty:"msVisibilityState",changeEvent:"msvisibilitychange"}].find(function(e){return e.hiddenProperty in document}))}catch(e){}return undefined}();return Object.freeze(Object.defineProperties({},{vendor:{get:e},state:{get:t},isEnabled:{value:r},isHidden:{value:n},hiddenProperty:{value:a&&a.hiddenProperty},stateProperty:{value:a&&a.stateProperty},changeEvent:{value:a&&a.changeEvent}}))}(),Fullscreen=function(){function e(e){var t=e||document.documentElement;return t===document.documentElement&&("msRequestFullscreen"===f.requestFn||Browser.isOpera&&Browser.operaVersion<15)&&(t=document.body),t}function t(){return f}function r(){return(f||null)&&document[f.element]}function n(){return Boolean(f&&document[f.isEnabled])}function a(){return Boolean(f&&document[f.element])}function i(t,r){var n=this;if(!f)return Promise.reject(new Error("fullscreen not supported"));var i=e(r);if("function"!=typeof i[f.requestFn])return Promise.reject(new Error("fullscreen not supported"));if(a())return Promise.resolve();if(p())return i[f.requestFn](t);var o=".Fullscreen_requestFullscreen";return new Promise(function(e,r){jQuery(i).off(o).one(""+f.errorEvent+o+" "+f.changeEvent+o,function(t){jQuery(n).off(o),t.type===f.errorEvent?r(new Error("unknown fullscreen request error")):e()}),i[f.requestFn](t)})}function o(){var e=this;if(!f||"function"!=typeof document[f.exitFn])return Promise.reject(new TypeError("fullscreen not supported"));if(!a())return Promise.reject(new TypeError("fullscreen mode not active"));if(p())return document[f.exitFn]();var t=".Fullscreen_exitFullscreen";return new Promise(function(r,n){jQuery(document).off(t).one(""+f.errorEvent+t+" "+f.changeEvent+t,function(a){jQuery(e).off(t),a.type===f.errorEvent?n(new Error("unknown fullscreen exit error")):r()}),document[f.exitFn]()})}function s(e,t){return a()?o():i(e,t)}function u(t,r){if(f){var n=e(r);$(n).on(f.changeEvent,t)}}function l(t,r){if(f){var n=e(r);t?$(n).off(f.changeEvent,t):$(n).off(f.changeEvent)}}function c(t,r){if(f){var n=e(r);$(n).on(f.errorEvent,t)}}function d(t,r){if(f){var n=e(r);t?$(n).off(f.errorEvent,t):$(n).off(f.errorEvent)}}var f=function(){try{return Object.freeze([{isEnabled:"fullscreenEnabled",element:"fullscreenElement",requestFn:"requestFullscreen",exitFn:"exitFullscreen",changeEvent:"fullscreenchange",errorEvent:"fullscreenerror"},{isEnabled:"webkitFullscreenEnabled",element:"webkitFullscreenElement",requestFn:"webkitRequestFullscreen",exitFn:"webkitExitFullscreen",changeEvent:"webkitfullscreenchange",errorEvent:"webkitfullscreenerror"},{isEnabled:"mozFullScreenEnabled",element:"mozFullScreenElement",requestFn:"mozRequestFullScreen",exitFn:"mozCancelFullScreen",changeEvent:"mozfullscreenchange",errorEvent:"mozfullscreenerror"},{isEnabled:"msFullscreenEnabled",element:"msFullscreenElement",requestFn:"msRequestFullscreen",exitFn:"msExitFullscreen",changeEvent:"MSFullscreenChange",errorEvent:"MSFullscreenError"}].find(function(e){return e.isEnabled in document}))}catch(e){}return undefined}(),p=function(){function e(){if(null!==t)return t;if(t=!1,f)try{var e=document.exitFullscreen();e.catch(function(){}),t=e instanceof Promise}catch(e){}return t}var t=null;return e}();return Object.freeze(Object.defineProperties({},{vendor:{get:t},element:{get:r},isEnabled:{value:n},isFullscreen:{value:a},request:{value:i},exit:{value:o},toggle:{value:s},onChange:{value:u},offChange:{value:l},onError:{value:c},offError:{value:d}}))}(),_ref3=function(){function e(e){for(var t=e.cloneNode(!0),r=document.createDocumentFragment(),n=void 0;null!==(n=t.firstChild);){if(n.nodeType===Node.ELEMENT_NODE)switch(n.nodeName.toUpperCase()){case"BR":case"DIV":case"P":r.appendChild(document.createTextNode(" "))}r.appendChild(n)}return r.textContent}function t(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)return e;if(e instanceof String)return String(e);if(e instanceof Number)return Number(e);if(e instanceof Boolean)return Boolean(e);if("function"==typeof e.clone)return e.clone(!0);if(e.nodeType&&"function"==typeof e.cloneNode)return e.cloneNode(!0);var r=void 0;return e instanceof Array?r=new Array(e.length):e instanceof Date?r=new Date(e.getTime()):e instanceof Map?(r=new Map,e.forEach(function(e,n){return r.set(n,t(e))})):e instanceof RegExp?r=new RegExp(e):e instanceof Set?(r=new Set,e.forEach(function(e){return r.add(t(e))})):r=Object.create(Object.getPrototypeOf(e)),Object.keys(e).forEach(function(n){return r[n]=t(e[n])}),r}function r(e){
