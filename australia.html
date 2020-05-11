@@ -76,63 +76,75 @@
 	                <div class="row">
 	                    <div class="col-sm-12">
 	                        <!-- <h6>something</h6> -->
-	                        <p class="lead" style="text-align: center">
-	                            There are currently no videos in this region.<br>To share your experience, <a href="form.html">click here.</a>
+	                        <p class="lead" id="words" style="text-align: center">
+	                            Click the white play button on the videos below to hear what people are experiencing in the era of COVID-19.
 	                        </p>
 	                    </div>
 	                </div>
 	            </div>
 	            <div class="container">
-	            	<div class="row">
-	            		<div class="col-sm-10 col-sm-offset-1">
-							<!-- <div class="monitorBorder"> 
-	            				<div class="monitorContainer imagebg videobg" id="test">
-								</div>
-	            			</div> -->
+	            	<div class="row" style="text-align: center;">
+	            		<div id="empty">
+	            		</div>
 	            		</div>
 	            	</div>
 	            </div>
 	        </section>
+	        <script type="text/javascript">
+	        	function harrison() { 
+	        		var umbrella = document.getElementById('empty');
+	        		umbrella.innerHTML = "<div id=\"empty\"><div class=\"monitorBorder\"><div class=\"monitorContainer\" id=\"test\"></div></div>";
+		        	var el = document.getElementById('test');
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" width=\"800\" height=\"500\" src=\"https://www.youtube.com/embed/hhoPtZOSROI?showinfo=0&amp;rel=0&amp;modestbranding=1?autoplay=1\"></iframe>";
+		        	var elmnt = document.getElementById('words');
+					elmnt.scrollIntoView();
+		        }
+		    </script>
 
- <!-- new framework template for videos 	
-
-	        <section>
+		    <section>
 	        	<div class="container">
-	        		<div class="row">
+		        	<div class="row">
 	        			<div class="col-md-3 col-sm-6">
-	        					<div class="card card-1">
-	        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
+        					<div class="card card-1">
+        						<div class="hover-element hover-element-1" data-title-position="bottom,left">
                                     <div class="hover-element__initial">
-                                        <img alt="Pic" src="images/vidThumbnail.png" />
-                                        <div class="card__body australia">
+                                        <img alt="Harrison" src="thumbnails/harrison.png" />
+                                        <div class="card__body asia">
                                         	<div class="card__title">
-	        									<h5>Britt</h5>
+	        									<h5>Harrison</h5>
 	        									<span>
-		                           				<em>Hawaii</em>
+		                           				<em>Australia</em>
 		                        				</span>
 	        								</div>
-	        								
                                         </div>
                                     </div>
                                     <div class="hover-element__reveal" data-overlay="9">
                                         <div class="boxed">
                                             <span class="img__description">
-                                                <em>britt needs a description</em>
+                                                <em>Harrison is a 20 year old student in Australia quarantined with his family.</em>
                                             </span>
                                             <br>
-                                            <div class="video-play-icon video-play-icon--sm playPreview" onclick="britt()"></div>
+                                            <div class="video-play-icon video-play-icon--sm playPreview" onclick="harrison()"></div>
                                         </div>
                                     </div>
-                                </div>
-                                
-	        					</div>
+                            	</div>
+        					</div>
 	        			</div>
-                    </div>
-                </div>
-            </section>
-            
-	        -->
-
+					</div>
+				</div>
+			</section>
+			<section class="bg--dark section--even">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-sm-12">
+	                        <!-- <h6>something</h6> -->
+	                        <p class="lead" id="words" style="text-align: center">
+	                            To share your experience, <a href="form.html">click here.</a>
+	                        </p>
+	                    </div>
+	                </div>
+	            </div>
+	        </section>
 
 	        <footer class="footer-3 bg--dark text-center-xs">
 				<div class="col-sm text-center">
