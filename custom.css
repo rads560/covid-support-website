@@ -145,9 +145,29 @@ colors
   padding-left: 0;
 }
 
+#works_cited{
+  font-family: 'Oxanium';
+  font-weight: 600;
+  color:#1b1b1b;
+}
 
+.citedText {
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: left;
+}
 
+.citedText a {
+  color: #1b1b1b;
+}
 
+.citedText a:hover {
+  color: #39c46f;
+}
+
+.aboutText li {
+  margin-bottom: 1em;
+}
 /** buttons for about page tabs**/
 
 .btn .btn__text,
@@ -255,7 +275,10 @@ h3 {
 .main-container {
   height: 100%;
 }
-
+.main-containerAlt {
+  height: 100%;
+  margin-top:-5%;
+}
 .main-container section {
   position: relative;
   top: 0;
@@ -277,23 +300,6 @@ h3 {
   font-weight: 600;
   font-size: 1.3em;
 }
-
-#works_cited {
-  font-family: 'Oxanium';
-  font-weight: 600;
-  text-align: center;
-}
-
-.works_cited_links {
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
-}
-
-.works_cited_links:hover {
-  color: #39c46f;
-}
-
 #about, #join_the_fun, #story {
   color: #20212a;
   font-family: 'Press Start 2P', sans-serif;
