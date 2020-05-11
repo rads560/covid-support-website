@@ -1,0 +1,511 @@
+
+/***************************
+global
+****************************/
+
+body {
+  color: #1b1b1b;
+  background-color: #20212a;
+  font-family: 'Oxanium';
+  font-size: 1em;
+
+}
+
+body tw-story {
+  font-family: "Press Start 2P";
+  font-size: 0.6em ;
+  line-height: 1.8em;
+}
+
+.bg--dark {
+  background: #20212a;
+}
+
+
+/***************************
+colors
+****************************/
+#game--color {
+  color: #c24051;
+  font-size: 1.2em;
+
+
+}
+
+#mute--color {
+  color: #6940c2;
+  font-size: 1.2em;
+  
+
+}
+
+#map--color {
+  color: #39c46f;
+   font-size: 1.2em;
+
+}
+
+
+.northAmerica {
+ background-color: #008776;
+  
+}
+
+.northAmerica.btn.btn--primary:hover {
+  color: #008776;
+
+}
+
+.southAmerica {
+  background-color: #664925;
+}
+.southAmerica.btn.btn--primary:hover {
+  color: #664975;
+
+}
+
+.africa {
+  background-color: #724735;
+}
+.africa.btn.btn--primary:hover {
+  color: #724735;
+
+}
+.asia {
+  background-color: #752536;
+}
+.asia.btn.btn--primary:hover {
+  color: #752536;
+
+}
+.australia {
+  background-color: #55739f;
+}
+.australia.btn.btn--primary:hover {
+  color: #55739f;
+
+}
+.europe {
+  background-color: #3b7441;
+}
+.europe.btn.btn--primary:hover {
+  color: #3b7441;
+}
+
+.ocean {
+  background-color: #1b2f54;
+}
+
+/**hover css --- by ---- https://ianlunn.github.io/Hover/ **/
+
+/* Box Shadow Inset */
+.hvr-box-shadow-inset {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(251,244,218,0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  box-shadow: inset 0 0 0 rgba(95, 88, 76, 0.6), 0 0 1px rgba(251,244,218,0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
+  box-shadow: inset 3px 3px 1px rgba(95, 88, 76, 0.6), 0 0 2px rgba(251,244,218,0);
+
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+/** navigation **/
+
+.menu > li {
+  position: relative;
+  padding-left: 1em;
+  float: left;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.nav-bar.bg--dark .menu > li > a:hover {
+  color: #fff;
+  transform: translate3d(5px, 0, 0);
+  -webkit-transform: translate3d(5px, 0, 0);
+}
+
+.menu > li img {
+  max-height: 4em;
+  margin: 0;
+}
+
+.menu > li > a{
+  padding-left: 0;
+}
+
+
+
+
+/** buttons for about page tabs**/
+
+.btn .btn__text,
+.btn i {
+
+  color: #fff;
+  padding: .2em;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.tabs-1 .tabs li.active .btn {
+  border-color: #e3c742;
+}
+
+.btn.btn--primary {
+  letter-spacing: normal;
+  margin:  0.2em 0.6em;
+	color: #2d2d3a;
+  background: #f9f4e4;
+  border-bottom: 5px ridge #ddd7c0;
+  border-right: 6px ridge #ddd7c0;
+  border-top: 3px double #fdfbf0;
+  border-left: 4px inset #fdfbf0;
+  border-radius: 0;
+
+  
+}
+@media screen and (max-width: 600px) {
+  .btn .btn__text {
+    font-size: .6em;
+  }
+}
+
+
+.mute--color.btn.btn--primary{
+
+  color: #2d2d3a;
+  background: #f9f4e4;
+  border-bottom: 5px ridge #ddd7c0;
+  border-right: 6px ridge #ddd7c0;
+  border-top: 3px double #fdfbf0;
+  border-left: 4px inset #fdfbf0;
+  border-radius: 0;
+}
+
+
+.btn--primary .btn__text,
+.btn--primary:visited .btn__text {
+  color: #1b1b1b;
+}
+
+/***************************
+typography
+****************************/
+a {
+  color: #fff;
+}
+
+.lead {
+  font-family: 'Montserrat';
+}
+
+h2 {
+  
+}
+h3 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+
+}
+
+
+.masonry .masonry__filters li {
+  display: inline-block;
+
+  font-family: 'Montserrat';
+  text-transform: lowercase;
+  color: #e3c742;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.prev--btn {
+  background-image: url("../images/previous_icon4.png");
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-radius: 0;
+
+}
+
+.next--btn {
+  background-image: url("../images/next_icon4.png");
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-radius: 0;
+
+}
+
+.main-container {
+  height: 100%;
+}
+
+.main-container section {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 0.8em;
+}
+
+.title, .lead {
+  color: #202218;
+  text-shadow: 2px 2px rgb(20,20,20);
+}
+
+.aboutText {
+  font-family: 'Oxanium';
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+#works_cited {
+  font-family: 'Oxanium';
+  font-weight: 600;
+  text-align: center;
+}
+
+.works_cited_links {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+.works_cited_links:hover {
+  color: #39c46f;
+}
+
+#about, #join_the_fun, #story {
+  color: #20212a;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+p.lead {
+   font-family: 'Oxanium', sans-serif;
+   font-size: 1.4em;
+   padding-top: 1.2em;
+   line-height: 2em;
+}
+
+p.title {
+	margin: 1.5em 0;
+}
+
+.about-lead {
+  color: #2d2d3a;
+  background: #f9f4e4;
+  border-bottom: 10px ridge #ddd7c0;
+  border-right: 10px ridge #ddd7c0;
+  border-top: 10px double #fdfbf0;
+  border-left: 6px inset #fdfbf0;
+  border-radius: 0;
+  padding: 15px;
+  font-size: 1em;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+
+
+/***************************
+landing pages
+****************************/
+
+.welcomeText {
+	font-family: 'Oxanium';
+
+	line-height: 2em;
+	letter-spacing: .05em;
+	color: #192b2b;
+  padding-top: 2em;
+
+  text-shadow: #192b2b 1px 1px 0;
+}
+
+.welcomeOverlay {
+  background-color: rgba(32,33,42,0.2);
+  width: 80%;
+  height: 80%;
+}
+
+.monitorBorder {
+  border-style: solid;
+  border-image-width: 20%;
+  border-image: url("../images/frame2845x1944.png") 30 fill /60px/ 60px stretch;
+  margin:  5%;
+  
+}
+
+.monitorBorderGreen {
+  border-style: solid;
+  border-image-width: 20%;
+  border-image: url("../images/greenBGframe.png") 30 fill /60px/ 60px stretch;
+  margin: 6%;
+
+}
+
+.monitorContainer {
+	
+  background: transparent;
+	margin:5%;
+  min-height: 50vh;
+  object-fit: cover;
+  
+}
+
+#app {
+  line-height: 3em;
+  font-family: 'Oxanium';
+  font-size: 2.1em;
+  font-weight: 500;
+  min-height: 2em;
+  color: #fff;
+  text-shadow: 2px 1px 0px #1b1b1b;
+}
+
+@media screen and (max-width: 600px) {
+  #app {
+    font-size: 1.5em;
+  }
+}
+/***************************
+map pages
+****************************/
+
+.header img {
+  /*height: 400px;*/
+  width: 100%;
+}
+
+.region {
+  font-size: 4em;
+  color: #f4f5f6;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.region-title {
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.screen {
+  background-image: url("../images/8bit black.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+min-height: 540px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.card {
+    color: #2d2d3a;
+  background: #f9f4e4;
+  border-bottom: 5px ridge #ddd7c0;
+  border-right: 5px ridge #ddd7c0;
+  border-top: 3px double #fdfbf0;
+  border-left: 3px inset #fdfbf0;
+  border-radius: 0;
+}
+
+.card h5 {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 2px;
+  padding-bottom: 0.5em;
+}
+.card .card__body {
+  margin: 0;
+  object-fit: contain;
+  min-height: 30%;
+
+  background-color: #2d2d3a;
+}
+.card-1 .card__title {
+
+  padding: 1em;
+  margin-bottom: 0;
+  margin-top: 0.2em;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 0.6em;
+  text-align: center;
+  font-family: 'Oxanium';
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+.card h5 {
+  color: #fff;
+}
+
+
+.playPreview {
+  position: absolute;
+  right: 12%;
+  bottom: 6%;
+}
+
+.img__description {
+
+
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+/***************************
+game
+****************************/
+
+.monitor-frame {
+  background-image: url("../images/greenBGframe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-height: 80%;
+  margin-top:2%;
+  text-align: center;
+}
+
+.gamebar-left {
+  position: fixed;
+  bottom: 20%;
+  min-height: 2em;
+  min-width: 3em;
+}
+
+.gamebar-right {
+  position: fixed;
+  bottom: 20%;
+  right: 8%;
+  min-height: 2em;
+  min-width: 3em;
+}
+
+form {
+  background-color: #20212a;
+}
+
