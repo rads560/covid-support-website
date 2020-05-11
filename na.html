@@ -294,6 +294,14 @@
 		        	var elmnt = document.getElementById('words');
 					elmnt.scrollIntoView();
 		        }
+		        function chandler() {
+		        	var umbrella = document.getElementById('empty');
+	        		umbrella.innerHTML = "<div id=\"empty\"><div class=\"monitorBorder\"><div class=\"monitorContainer\" id=\"test\"></div></div>";
+		        	var el = document.getElementById('test');
+		        	el.innerHTML = "<iframe allowfullscreen=\"allowfullscreen\" width=\"800\" height=\"500\" src=\"https://www.youtube.com/embed/CMvPVMgU-WU\"></iframe>";
+		        	var elmnt = document.getElementById('words');
+					elmnt.scrollIntoView();
+		        }		        
 	        </script>
 	        <section>
 	        	<div class="container">
@@ -957,7 +965,7 @@
 	        				<div class="card card-1">
 	        					<div class="hover-element hover-element-1" data-title-position="bottom,left">
 	                                <div class="hover-element__initial">
-	                                    <img alt="Adeline" src="thumbnails/mark.png" />
+	                                    <img alt="Mark" src="thumbnails/mark.png" />
 	                                    <div class="card__body northAmerica">
 	                                    	<div class="card__title">
 	        									<h5>Mark</h5>
@@ -981,6 +989,34 @@
 	                            </div>
 	        				</div>
 	        			</div>
+		        	<div class="col-md-3 col-sm-6">
+	        				<div class="card card-1">
+	        					<div class="hover-element hover-element-1" data-title-position="bottom,left">
+	                                <div class="hover-element__initial">
+	                                    <img alt="Chandler" src="thumbnails/chandler.jpg" />
+	                                    <div class="card__body northAmerica">
+	                                    	<div class="card__title">
+	        									<h5>Chandler</h5>
+	        									<span>
+		                           				<em>Maricopa, AZ</em>
+		                        			</span>
+	        								</div>	
+	                                    </div>
+	                                </div>
+	                                <div class="hover-element__reveal" data-overlay="9">
+	                                    <div class="boxed">
+	                                        <span class="img__description">
+	                                            <em>Chandler is a USC student social distancing in Maricop, Arizona with his family.
+											 </em>
+	                                        </span>
+	                                        <br>
+	                                        <br>
+	                                        <div class="video-play-icon video-play-icon--sm playPreview" onclick="chandler()"></div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	        				</div>
+	        			</div>	        			
 		        	</div>
 	        	</div>
 	        </section>
